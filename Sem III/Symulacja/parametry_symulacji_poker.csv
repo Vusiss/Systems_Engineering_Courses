@@ -1,0 +1,1621 @@
+Typ gracza,Pieniądze na wstępie,Lekkomyślność,Rozrzutność,Minimalna oczekiwana ręka
+CautiousPlayer,500,0.1,0.1,High card
+CautiousPlayer,500,0.1,0.1,One pair
+CautiousPlayer,500,0.1,0.1,Two pair
+CautiousPlayer,500,0.1,0.1,Three-of-a-Kind
+CautiousPlayer,500,0.1,0.1,Straight
+CautiousPlayer,500,0.1,0.1,Flush
+CautiousPlayer,500,0.1,0.1,Full house
+CautiousPlayer,500,0.1,0.1,Four-of-a-Kind
+CautiousPlayer,500,0.1,0.1,Straight flush
+CautiousPlayer,500,0.1,0.5,High card
+CautiousPlayer,500,0.1,0.5,One pair
+CautiousPlayer,500,0.1,0.5,Two pair
+CautiousPlayer,500,0.1,0.5,Three-of-a-Kind
+CautiousPlayer,500,0.1,0.5,Straight
+CautiousPlayer,500,0.1,0.5,Flush
+CautiousPlayer,500,0.1,0.5,Full house
+CautiousPlayer,500,0.1,0.5,Four-of-a-Kind
+CautiousPlayer,500,0.1,0.5,Straight flush
+CautiousPlayer,500,0.1,0.9,High card
+CautiousPlayer,500,0.1,0.9,One pair
+CautiousPlayer,500,0.1,0.9,Two pair
+CautiousPlayer,500,0.1,0.9,Three-of-a-Kind
+CautiousPlayer,500,0.1,0.9,Straight
+CautiousPlayer,500,0.1,0.9,Flush
+CautiousPlayer,500,0.1,0.9,Full house
+CautiousPlayer,500,0.1,0.9,Four-of-a-Kind
+CautiousPlayer,500,0.1,0.9,Straight flush
+CautiousPlayer,500,0.5,0.1,High card
+CautiousPlayer,500,0.5,0.1,One pair
+CautiousPlayer,500,0.5,0.1,Two pair
+CautiousPlayer,500,0.5,0.1,Three-of-a-Kind
+CautiousPlayer,500,0.5,0.1,Straight
+CautiousPlayer,500,0.5,0.1,Flush
+CautiousPlayer,500,0.5,0.1,Full house
+CautiousPlayer,500,0.5,0.1,Four-of-a-Kind
+CautiousPlayer,500,0.5,0.1,Straight flush
+CautiousPlayer,500,0.5,0.5,High card
+CautiousPlayer,500,0.5,0.5,One pair
+CautiousPlayer,500,0.5,0.5,Two pair
+CautiousPlayer,500,0.5,0.5,Three-of-a-Kind
+CautiousPlayer,500,0.5,0.5,Straight
+CautiousPlayer,500,0.5,0.5,Flush
+CautiousPlayer,500,0.5,0.5,Full house
+CautiousPlayer,500,0.5,0.5,Four-of-a-Kind
+CautiousPlayer,500,0.5,0.5,Straight flush
+CautiousPlayer,500,0.5,0.9,High card
+CautiousPlayer,500,0.5,0.9,One pair
+CautiousPlayer,500,0.5,0.9,Two pair
+CautiousPlayer,500,0.5,0.9,Three-of-a-Kind
+CautiousPlayer,500,0.5,0.9,Straight
+CautiousPlayer,500,0.5,0.9,Flush
+CautiousPlayer,500,0.5,0.9,Full house
+CautiousPlayer,500,0.5,0.9,Four-of-a-Kind
+CautiousPlayer,500,0.5,0.9,Straight flush
+CautiousPlayer,500,0.9,0.1,High card
+CautiousPlayer,500,0.9,0.1,One pair
+CautiousPlayer,500,0.9,0.1,Two pair
+CautiousPlayer,500,0.9,0.1,Three-of-a-Kind
+CautiousPlayer,500,0.9,0.1,Straight
+CautiousPlayer,500,0.9,0.1,Flush
+CautiousPlayer,500,0.9,0.1,Full house
+CautiousPlayer,500,0.9,0.1,Four-of-a-Kind
+CautiousPlayer,500,0.9,0.1,Straight flush
+CautiousPlayer,500,0.9,0.5,High card
+CautiousPlayer,500,0.9,0.5,One pair
+CautiousPlayer,500,0.9,0.5,Two pair
+CautiousPlayer,500,0.9,0.5,Three-of-a-Kind
+CautiousPlayer,500,0.9,0.5,Straight
+CautiousPlayer,500,0.9,0.5,Flush
+CautiousPlayer,500,0.9,0.5,Full house
+CautiousPlayer,500,0.9,0.5,Four-of-a-Kind
+CautiousPlayer,500,0.9,0.5,Straight flush
+CautiousPlayer,500,0.9,0.9,High card
+CautiousPlayer,500,0.9,0.9,One pair
+CautiousPlayer,500,0.9,0.9,Two pair
+CautiousPlayer,500,0.9,0.9,Three-of-a-Kind
+CautiousPlayer,500,0.9,0.9,Straight
+CautiousPlayer,500,0.9,0.9,Flush
+CautiousPlayer,500,0.9,0.9,Full house
+CautiousPlayer,500,0.9,0.9,Four-of-a-Kind
+CautiousPlayer,500,0.9,0.9,Straight flush
+CautiousPlayer,2500,0.1,0.1,High card
+CautiousPlayer,2500,0.1,0.1,One pair
+CautiousPlayer,2500,0.1,0.1,Two pair
+CautiousPlayer,2500,0.1,0.1,Three-of-a-Kind
+CautiousPlayer,2500,0.1,0.1,Straight
+CautiousPlayer,2500,0.1,0.1,Flush
+CautiousPlayer,2500,0.1,0.1,Full house
+CautiousPlayer,2500,0.1,0.1,Four-of-a-Kind
+CautiousPlayer,2500,0.1,0.1,Straight flush
+CautiousPlayer,2500,0.1,0.5,High card
+CautiousPlayer,2500,0.1,0.5,One pair
+CautiousPlayer,2500,0.1,0.5,Two pair
+CautiousPlayer,2500,0.1,0.5,Three-of-a-Kind
+CautiousPlayer,2500,0.1,0.5,Straight
+CautiousPlayer,2500,0.1,0.5,Flush
+CautiousPlayer,2500,0.1,0.5,Full house
+CautiousPlayer,2500,0.1,0.5,Four-of-a-Kind
+CautiousPlayer,2500,0.1,0.5,Straight flush
+CautiousPlayer,2500,0.1,0.9,High card
+CautiousPlayer,2500,0.1,0.9,One pair
+CautiousPlayer,2500,0.1,0.9,Two pair
+CautiousPlayer,2500,0.1,0.9,Three-of-a-Kind
+CautiousPlayer,2500,0.1,0.9,Straight
+CautiousPlayer,2500,0.1,0.9,Flush
+CautiousPlayer,2500,0.1,0.9,Full house
+CautiousPlayer,2500,0.1,0.9,Four-of-a-Kind
+CautiousPlayer,2500,0.1,0.9,Straight flush
+CautiousPlayer,2500,0.5,0.1,High card
+CautiousPlayer,2500,0.5,0.1,One pair
+CautiousPlayer,2500,0.5,0.1,Two pair
+CautiousPlayer,2500,0.5,0.1,Three-of-a-Kind
+CautiousPlayer,2500,0.5,0.1,Straight
+CautiousPlayer,2500,0.5,0.1,Flush
+CautiousPlayer,2500,0.5,0.1,Full house
+CautiousPlayer,2500,0.5,0.1,Four-of-a-Kind
+CautiousPlayer,2500,0.5,0.1,Straight flush
+CautiousPlayer,2500,0.5,0.5,High card
+CautiousPlayer,2500,0.5,0.5,One pair
+CautiousPlayer,2500,0.5,0.5,Two pair
+CautiousPlayer,2500,0.5,0.5,Three-of-a-Kind
+CautiousPlayer,2500,0.5,0.5,Straight
+CautiousPlayer,2500,0.5,0.5,Flush
+CautiousPlayer,2500,0.5,0.5,Full house
+CautiousPlayer,2500,0.5,0.5,Four-of-a-Kind
+CautiousPlayer,2500,0.5,0.5,Straight flush
+CautiousPlayer,2500,0.5,0.9,High card
+CautiousPlayer,2500,0.5,0.9,One pair
+CautiousPlayer,2500,0.5,0.9,Two pair
+CautiousPlayer,2500,0.5,0.9,Three-of-a-Kind
+CautiousPlayer,2500,0.5,0.9,Straight
+CautiousPlayer,2500,0.5,0.9,Flush
+CautiousPlayer,2500,0.5,0.9,Full house
+CautiousPlayer,2500,0.5,0.9,Four-of-a-Kind
+CautiousPlayer,2500,0.5,0.9,Straight flush
+CautiousPlayer,2500,0.9,0.1,High card
+CautiousPlayer,2500,0.9,0.1,One pair
+CautiousPlayer,2500,0.9,0.1,Two pair
+CautiousPlayer,2500,0.9,0.1,Three-of-a-Kind
+CautiousPlayer,2500,0.9,0.1,Straight
+CautiousPlayer,2500,0.9,0.1,Flush
+CautiousPlayer,2500,0.9,0.1,Full house
+CautiousPlayer,2500,0.9,0.1,Four-of-a-Kind
+CautiousPlayer,2500,0.9,0.1,Straight flush
+CautiousPlayer,2500,0.9,0.5,High card
+CautiousPlayer,2500,0.9,0.5,One pair
+CautiousPlayer,2500,0.9,0.5,Two pair
+CautiousPlayer,2500,0.9,0.5,Three-of-a-Kind
+CautiousPlayer,2500,0.9,0.5,Straight
+CautiousPlayer,2500,0.9,0.5,Flush
+CautiousPlayer,2500,0.9,0.5,Full house
+CautiousPlayer,2500,0.9,0.5,Four-of-a-Kind
+CautiousPlayer,2500,0.9,0.5,Straight flush
+CautiousPlayer,2500,0.9,0.9,High card
+CautiousPlayer,2500,0.9,0.9,One pair
+CautiousPlayer,2500,0.9,0.9,Two pair
+CautiousPlayer,2500,0.9,0.9,Three-of-a-Kind
+CautiousPlayer,2500,0.9,0.9,Straight
+CautiousPlayer,2500,0.9,0.9,Flush
+CautiousPlayer,2500,0.9,0.9,Full house
+CautiousPlayer,2500,0.9,0.9,Four-of-a-Kind
+CautiousPlayer,2500,0.9,0.9,Straight flush
+CautiousPlayer,5000,0.1,0.1,High card
+CautiousPlayer,5000,0.1,0.1,One pair
+CautiousPlayer,5000,0.1,0.1,Two pair
+CautiousPlayer,5000,0.1,0.1,Three-of-a-Kind
+CautiousPlayer,5000,0.1,0.1,Straight
+CautiousPlayer,5000,0.1,0.1,Flush
+CautiousPlayer,5000,0.1,0.1,Full house
+CautiousPlayer,5000,0.1,0.1,Four-of-a-Kind
+CautiousPlayer,5000,0.1,0.1,Straight flush
+CautiousPlayer,5000,0.1,0.5,High card
+CautiousPlayer,5000,0.1,0.5,One pair
+CautiousPlayer,5000,0.1,0.5,Two pair
+CautiousPlayer,5000,0.1,0.5,Three-of-a-Kind
+CautiousPlayer,5000,0.1,0.5,Straight
+CautiousPlayer,5000,0.1,0.5,Flush
+CautiousPlayer,5000,0.1,0.5,Full house
+CautiousPlayer,5000,0.1,0.5,Four-of-a-Kind
+CautiousPlayer,5000,0.1,0.5,Straight flush
+CautiousPlayer,5000,0.1,0.9,High card
+CautiousPlayer,5000,0.1,0.9,One pair
+CautiousPlayer,5000,0.1,0.9,Two pair
+CautiousPlayer,5000,0.1,0.9,Three-of-a-Kind
+CautiousPlayer,5000,0.1,0.9,Straight
+CautiousPlayer,5000,0.1,0.9,Flush
+CautiousPlayer,5000,0.1,0.9,Full house
+CautiousPlayer,5000,0.1,0.9,Four-of-a-Kind
+CautiousPlayer,5000,0.1,0.9,Straight flush
+CautiousPlayer,5000,0.5,0.1,High card
+CautiousPlayer,5000,0.5,0.1,One pair
+CautiousPlayer,5000,0.5,0.1,Two pair
+CautiousPlayer,5000,0.5,0.1,Three-of-a-Kind
+CautiousPlayer,5000,0.5,0.1,Straight
+CautiousPlayer,5000,0.5,0.1,Flush
+CautiousPlayer,5000,0.5,0.1,Full house
+CautiousPlayer,5000,0.5,0.1,Four-of-a-Kind
+CautiousPlayer,5000,0.5,0.1,Straight flush
+CautiousPlayer,5000,0.5,0.5,High card
+CautiousPlayer,5000,0.5,0.5,One pair
+CautiousPlayer,5000,0.5,0.5,Two pair
+CautiousPlayer,5000,0.5,0.5,Three-of-a-Kind
+CautiousPlayer,5000,0.5,0.5,Straight
+CautiousPlayer,5000,0.5,0.5,Flush
+CautiousPlayer,5000,0.5,0.5,Full house
+CautiousPlayer,5000,0.5,0.5,Four-of-a-Kind
+CautiousPlayer,5000,0.5,0.5,Straight flush
+CautiousPlayer,5000,0.5,0.9,High card
+CautiousPlayer,5000,0.5,0.9,One pair
+CautiousPlayer,5000,0.5,0.9,Two pair
+CautiousPlayer,5000,0.5,0.9,Three-of-a-Kind
+CautiousPlayer,5000,0.5,0.9,Straight
+CautiousPlayer,5000,0.5,0.9,Flush
+CautiousPlayer,5000,0.5,0.9,Full house
+CautiousPlayer,5000,0.5,0.9,Four-of-a-Kind
+CautiousPlayer,5000,0.5,0.9,Straight flush
+CautiousPlayer,5000,0.9,0.1,High card
+CautiousPlayer,5000,0.9,0.1,One pair
+CautiousPlayer,5000,0.9,0.1,Two pair
+CautiousPlayer,5000,0.9,0.1,Three-of-a-Kind
+CautiousPlayer,5000,0.9,0.1,Straight
+CautiousPlayer,5000,0.9,0.1,Flush
+CautiousPlayer,5000,0.9,0.1,Full house
+CautiousPlayer,5000,0.9,0.1,Four-of-a-Kind
+CautiousPlayer,5000,0.9,0.1,Straight flush
+CautiousPlayer,5000,0.9,0.5,High card
+CautiousPlayer,5000,0.9,0.5,One pair
+CautiousPlayer,5000,0.9,0.5,Two pair
+CautiousPlayer,5000,0.9,0.5,Three-of-a-Kind
+CautiousPlayer,5000,0.9,0.5,Straight
+CautiousPlayer,5000,0.9,0.5,Flush
+CautiousPlayer,5000,0.9,0.5,Full house
+CautiousPlayer,5000,0.9,0.5,Four-of-a-Kind
+CautiousPlayer,5000,0.9,0.5,Straight flush
+CautiousPlayer,5000,0.9,0.9,High card
+CautiousPlayer,5000,0.9,0.9,One pair
+CautiousPlayer,5000,0.9,0.9,Two pair
+CautiousPlayer,5000,0.9,0.9,Three-of-a-Kind
+CautiousPlayer,5000,0.9,0.9,Straight
+CautiousPlayer,5000,0.9,0.9,Flush
+CautiousPlayer,5000,0.9,0.9,Full house
+CautiousPlayer,5000,0.9,0.9,Four-of-a-Kind
+CautiousPlayer,5000,0.9,0.9,Straight flush
+CautiousPlayer,7500,0.1,0.1,High card
+CautiousPlayer,7500,0.1,0.1,One pair
+CautiousPlayer,7500,0.1,0.1,Two pair
+CautiousPlayer,7500,0.1,0.1,Three-of-a-Kind
+CautiousPlayer,7500,0.1,0.1,Straight
+CautiousPlayer,7500,0.1,0.1,Flush
+CautiousPlayer,7500,0.1,0.1,Full house
+CautiousPlayer,7500,0.1,0.1,Four-of-a-Kind
+CautiousPlayer,7500,0.1,0.1,Straight flush
+CautiousPlayer,7500,0.1,0.5,High card
+CautiousPlayer,7500,0.1,0.5,One pair
+CautiousPlayer,7500,0.1,0.5,Two pair
+CautiousPlayer,7500,0.1,0.5,Three-of-a-Kind
+CautiousPlayer,7500,0.1,0.5,Straight
+CautiousPlayer,7500,0.1,0.5,Flush
+CautiousPlayer,7500,0.1,0.5,Full house
+CautiousPlayer,7500,0.1,0.5,Four-of-a-Kind
+CautiousPlayer,7500,0.1,0.5,Straight flush
+CautiousPlayer,7500,0.1,0.9,High card
+CautiousPlayer,7500,0.1,0.9,One pair
+CautiousPlayer,7500,0.1,0.9,Two pair
+CautiousPlayer,7500,0.1,0.9,Three-of-a-Kind
+CautiousPlayer,7500,0.1,0.9,Straight
+CautiousPlayer,7500,0.1,0.9,Flush
+CautiousPlayer,7500,0.1,0.9,Full house
+CautiousPlayer,7500,0.1,0.9,Four-of-a-Kind
+CautiousPlayer,7500,0.1,0.9,Straight flush
+CautiousPlayer,7500,0.5,0.1,High card
+CautiousPlayer,7500,0.5,0.1,One pair
+CautiousPlayer,7500,0.5,0.1,Two pair
+CautiousPlayer,7500,0.5,0.1,Three-of-a-Kind
+CautiousPlayer,7500,0.5,0.1,Straight
+CautiousPlayer,7500,0.5,0.1,Flush
+CautiousPlayer,7500,0.5,0.1,Full house
+CautiousPlayer,7500,0.5,0.1,Four-of-a-Kind
+CautiousPlayer,7500,0.5,0.1,Straight flush
+CautiousPlayer,7500,0.5,0.5,High card
+CautiousPlayer,7500,0.5,0.5,One pair
+CautiousPlayer,7500,0.5,0.5,Two pair
+CautiousPlayer,7500,0.5,0.5,Three-of-a-Kind
+CautiousPlayer,7500,0.5,0.5,Straight
+CautiousPlayer,7500,0.5,0.5,Flush
+CautiousPlayer,7500,0.5,0.5,Full house
+CautiousPlayer,7500,0.5,0.5,Four-of-a-Kind
+CautiousPlayer,7500,0.5,0.5,Straight flush
+CautiousPlayer,7500,0.5,0.9,High card
+CautiousPlayer,7500,0.5,0.9,One pair
+CautiousPlayer,7500,0.5,0.9,Two pair
+CautiousPlayer,7500,0.5,0.9,Three-of-a-Kind
+CautiousPlayer,7500,0.5,0.9,Straight
+CautiousPlayer,7500,0.5,0.9,Flush
+CautiousPlayer,7500,0.5,0.9,Full house
+CautiousPlayer,7500,0.5,0.9,Four-of-a-Kind
+CautiousPlayer,7500,0.5,0.9,Straight flush
+CautiousPlayer,7500,0.9,0.1,High card
+CautiousPlayer,7500,0.9,0.1,One pair
+CautiousPlayer,7500,0.9,0.1,Two pair
+CautiousPlayer,7500,0.9,0.1,Three-of-a-Kind
+CautiousPlayer,7500,0.9,0.1,Straight
+CautiousPlayer,7500,0.9,0.1,Flush
+CautiousPlayer,7500,0.9,0.1,Full house
+CautiousPlayer,7500,0.9,0.1,Four-of-a-Kind
+CautiousPlayer,7500,0.9,0.1,Straight flush
+CautiousPlayer,7500,0.9,0.5,High card
+CautiousPlayer,7500,0.9,0.5,One pair
+CautiousPlayer,7500,0.9,0.5,Two pair
+CautiousPlayer,7500,0.9,0.5,Three-of-a-Kind
+CautiousPlayer,7500,0.9,0.5,Straight
+CautiousPlayer,7500,0.9,0.5,Flush
+CautiousPlayer,7500,0.9,0.5,Full house
+CautiousPlayer,7500,0.9,0.5,Four-of-a-Kind
+CautiousPlayer,7500,0.9,0.5,Straight flush
+CautiousPlayer,7500,0.9,0.9,High card
+CautiousPlayer,7500,0.9,0.9,One pair
+CautiousPlayer,7500,0.9,0.9,Two pair
+CautiousPlayer,7500,0.9,0.9,Three-of-a-Kind
+CautiousPlayer,7500,0.9,0.9,Straight
+CautiousPlayer,7500,0.9,0.9,Flush
+CautiousPlayer,7500,0.9,0.9,Full house
+CautiousPlayer,7500,0.9,0.9,Four-of-a-Kind
+CautiousPlayer,7500,0.9,0.9,Straight flush
+CautiousPlayer,10000,0.1,0.1,High card
+CautiousPlayer,10000,0.1,0.1,One pair
+CautiousPlayer,10000,0.1,0.1,Two pair
+CautiousPlayer,10000,0.1,0.1,Three-of-a-Kind
+CautiousPlayer,10000,0.1,0.1,Straight
+CautiousPlayer,10000,0.1,0.1,Flush
+CautiousPlayer,10000,0.1,0.1,Full house
+CautiousPlayer,10000,0.1,0.1,Four-of-a-Kind
+CautiousPlayer,10000,0.1,0.1,Straight flush
+CautiousPlayer,10000,0.1,0.5,High card
+CautiousPlayer,10000,0.1,0.5,One pair
+CautiousPlayer,10000,0.1,0.5,Two pair
+CautiousPlayer,10000,0.1,0.5,Three-of-a-Kind
+CautiousPlayer,10000,0.1,0.5,Straight
+CautiousPlayer,10000,0.1,0.5,Flush
+CautiousPlayer,10000,0.1,0.5,Full house
+CautiousPlayer,10000,0.1,0.5,Four-of-a-Kind
+CautiousPlayer,10000,0.1,0.5,Straight flush
+CautiousPlayer,10000,0.1,0.9,High card
+CautiousPlayer,10000,0.1,0.9,One pair
+CautiousPlayer,10000,0.1,0.9,Two pair
+CautiousPlayer,10000,0.1,0.9,Three-of-a-Kind
+CautiousPlayer,10000,0.1,0.9,Straight
+CautiousPlayer,10000,0.1,0.9,Flush
+CautiousPlayer,10000,0.1,0.9,Full house
+CautiousPlayer,10000,0.1,0.9,Four-of-a-Kind
+CautiousPlayer,10000,0.1,0.9,Straight flush
+CautiousPlayer,10000,0.5,0.1,High card
+CautiousPlayer,10000,0.5,0.1,One pair
+CautiousPlayer,10000,0.5,0.1,Two pair
+CautiousPlayer,10000,0.5,0.1,Three-of-a-Kind
+CautiousPlayer,10000,0.5,0.1,Straight
+CautiousPlayer,10000,0.5,0.1,Flush
+CautiousPlayer,10000,0.5,0.1,Full house
+CautiousPlayer,10000,0.5,0.1,Four-of-a-Kind
+CautiousPlayer,10000,0.5,0.1,Straight flush
+CautiousPlayer,10000,0.5,0.5,High card
+CautiousPlayer,10000,0.5,0.5,One pair
+CautiousPlayer,10000,0.5,0.5,Two pair
+CautiousPlayer,10000,0.5,0.5,Three-of-a-Kind
+CautiousPlayer,10000,0.5,0.5,Straight
+CautiousPlayer,10000,0.5,0.5,Flush
+CautiousPlayer,10000,0.5,0.5,Full house
+CautiousPlayer,10000,0.5,0.5,Four-of-a-Kind
+CautiousPlayer,10000,0.5,0.5,Straight flush
+CautiousPlayer,10000,0.5,0.9,High card
+CautiousPlayer,10000,0.5,0.9,One pair
+CautiousPlayer,10000,0.5,0.9,Two pair
+CautiousPlayer,10000,0.5,0.9,Three-of-a-Kind
+CautiousPlayer,10000,0.5,0.9,Straight
+CautiousPlayer,10000,0.5,0.9,Flush
+CautiousPlayer,10000,0.5,0.9,Full house
+CautiousPlayer,10000,0.5,0.9,Four-of-a-Kind
+CautiousPlayer,10000,0.5,0.9,Straight flush
+CautiousPlayer,10000,0.9,0.1,High card
+CautiousPlayer,10000,0.9,0.1,One pair
+CautiousPlayer,10000,0.9,0.1,Two pair
+CautiousPlayer,10000,0.9,0.1,Three-of-a-Kind
+CautiousPlayer,10000,0.9,0.1,Straight
+CautiousPlayer,10000,0.9,0.1,Flush
+CautiousPlayer,10000,0.9,0.1,Full house
+CautiousPlayer,10000,0.9,0.1,Four-of-a-Kind
+CautiousPlayer,10000,0.9,0.1,Straight flush
+CautiousPlayer,10000,0.9,0.5,High card
+CautiousPlayer,10000,0.9,0.5,One pair
+CautiousPlayer,10000,0.9,0.5,Two pair
+CautiousPlayer,10000,0.9,0.5,Three-of-a-Kind
+CautiousPlayer,10000,0.9,0.5,Straight
+CautiousPlayer,10000,0.9,0.5,Flush
+CautiousPlayer,10000,0.9,0.5,Full house
+CautiousPlayer,10000,0.9,0.5,Four-of-a-Kind
+CautiousPlayer,10000,0.9,0.5,Straight flush
+CautiousPlayer,10000,0.9,0.9,High card
+CautiousPlayer,10000,0.9,0.9,One pair
+CautiousPlayer,10000,0.9,0.9,Two pair
+CautiousPlayer,10000,0.9,0.9,Three-of-a-Kind
+CautiousPlayer,10000,0.9,0.9,Straight
+CautiousPlayer,10000,0.9,0.9,Flush
+CautiousPlayer,10000,0.9,0.9,Full house
+CautiousPlayer,10000,0.9,0.9,Four-of-a-Kind
+CautiousPlayer,10000,0.9,0.9,Straight flush
+PatientPlayer,500,0.1,0.1,High card
+PatientPlayer,500,0.1,0.1,One pair
+PatientPlayer,500,0.1,0.1,Two pair
+PatientPlayer,500,0.1,0.1,Three-of-a-Kind
+PatientPlayer,500,0.1,0.1,Straight
+PatientPlayer,500,0.1,0.1,Flush
+PatientPlayer,500,0.1,0.1,Full house
+PatientPlayer,500,0.1,0.1,Four-of-a-Kind
+PatientPlayer,500,0.1,0.1,Straight flush
+PatientPlayer,500,0.1,0.5,High card
+PatientPlayer,500,0.1,0.5,One pair
+PatientPlayer,500,0.1,0.5,Two pair
+PatientPlayer,500,0.1,0.5,Three-of-a-Kind
+PatientPlayer,500,0.1,0.5,Straight
+PatientPlayer,500,0.1,0.5,Flush
+PatientPlayer,500,0.1,0.5,Full house
+PatientPlayer,500,0.1,0.5,Four-of-a-Kind
+PatientPlayer,500,0.1,0.5,Straight flush
+PatientPlayer,500,0.1,0.9,High card
+PatientPlayer,500,0.1,0.9,One pair
+PatientPlayer,500,0.1,0.9,Two pair
+PatientPlayer,500,0.1,0.9,Three-of-a-Kind
+PatientPlayer,500,0.1,0.9,Straight
+PatientPlayer,500,0.1,0.9,Flush
+PatientPlayer,500,0.1,0.9,Full house
+PatientPlayer,500,0.1,0.9,Four-of-a-Kind
+PatientPlayer,500,0.1,0.9,Straight flush
+PatientPlayer,500,0.5,0.1,High card
+PatientPlayer,500,0.5,0.1,One pair
+PatientPlayer,500,0.5,0.1,Two pair
+PatientPlayer,500,0.5,0.1,Three-of-a-Kind
+PatientPlayer,500,0.5,0.1,Straight
+PatientPlayer,500,0.5,0.1,Flush
+PatientPlayer,500,0.5,0.1,Full house
+PatientPlayer,500,0.5,0.1,Four-of-a-Kind
+PatientPlayer,500,0.5,0.1,Straight flush
+PatientPlayer,500,0.5,0.5,High card
+PatientPlayer,500,0.5,0.5,One pair
+PatientPlayer,500,0.5,0.5,Two pair
+PatientPlayer,500,0.5,0.5,Three-of-a-Kind
+PatientPlayer,500,0.5,0.5,Straight
+PatientPlayer,500,0.5,0.5,Flush
+PatientPlayer,500,0.5,0.5,Full house
+PatientPlayer,500,0.5,0.5,Four-of-a-Kind
+PatientPlayer,500,0.5,0.5,Straight flush
+PatientPlayer,500,0.5,0.9,High card
+PatientPlayer,500,0.5,0.9,One pair
+PatientPlayer,500,0.5,0.9,Two pair
+PatientPlayer,500,0.5,0.9,Three-of-a-Kind
+PatientPlayer,500,0.5,0.9,Straight
+PatientPlayer,500,0.5,0.9,Flush
+PatientPlayer,500,0.5,0.9,Full house
+PatientPlayer,500,0.5,0.9,Four-of-a-Kind
+PatientPlayer,500,0.5,0.9,Straight flush
+PatientPlayer,500,0.9,0.1,High card
+PatientPlayer,500,0.9,0.1,One pair
+PatientPlayer,500,0.9,0.1,Two pair
+PatientPlayer,500,0.9,0.1,Three-of-a-Kind
+PatientPlayer,500,0.9,0.1,Straight
+PatientPlayer,500,0.9,0.1,Flush
+PatientPlayer,500,0.9,0.1,Full house
+PatientPlayer,500,0.9,0.1,Four-of-a-Kind
+PatientPlayer,500,0.9,0.1,Straight flush
+PatientPlayer,500,0.9,0.5,High card
+PatientPlayer,500,0.9,0.5,One pair
+PatientPlayer,500,0.9,0.5,Two pair
+PatientPlayer,500,0.9,0.5,Three-of-a-Kind
+PatientPlayer,500,0.9,0.5,Straight
+PatientPlayer,500,0.9,0.5,Flush
+PatientPlayer,500,0.9,0.5,Full house
+PatientPlayer,500,0.9,0.5,Four-of-a-Kind
+PatientPlayer,500,0.9,0.5,Straight flush
+PatientPlayer,500,0.9,0.9,High card
+PatientPlayer,500,0.9,0.9,One pair
+PatientPlayer,500,0.9,0.9,Two pair
+PatientPlayer,500,0.9,0.9,Three-of-a-Kind
+PatientPlayer,500,0.9,0.9,Straight
+PatientPlayer,500,0.9,0.9,Flush
+PatientPlayer,500,0.9,0.9,Full house
+PatientPlayer,500,0.9,0.9,Four-of-a-Kind
+PatientPlayer,500,0.9,0.9,Straight flush
+PatientPlayer,2500,0.1,0.1,High card
+PatientPlayer,2500,0.1,0.1,One pair
+PatientPlayer,2500,0.1,0.1,Two pair
+PatientPlayer,2500,0.1,0.1,Three-of-a-Kind
+PatientPlayer,2500,0.1,0.1,Straight
+PatientPlayer,2500,0.1,0.1,Flush
+PatientPlayer,2500,0.1,0.1,Full house
+PatientPlayer,2500,0.1,0.1,Four-of-a-Kind
+PatientPlayer,2500,0.1,0.1,Straight flush
+PatientPlayer,2500,0.1,0.5,High card
+PatientPlayer,2500,0.1,0.5,One pair
+PatientPlayer,2500,0.1,0.5,Two pair
+PatientPlayer,2500,0.1,0.5,Three-of-a-Kind
+PatientPlayer,2500,0.1,0.5,Straight
+PatientPlayer,2500,0.1,0.5,Flush
+PatientPlayer,2500,0.1,0.5,Full house
+PatientPlayer,2500,0.1,0.5,Four-of-a-Kind
+PatientPlayer,2500,0.1,0.5,Straight flush
+PatientPlayer,2500,0.1,0.9,High card
+PatientPlayer,2500,0.1,0.9,One pair
+PatientPlayer,2500,0.1,0.9,Two pair
+PatientPlayer,2500,0.1,0.9,Three-of-a-Kind
+PatientPlayer,2500,0.1,0.9,Straight
+PatientPlayer,2500,0.1,0.9,Flush
+PatientPlayer,2500,0.1,0.9,Full house
+PatientPlayer,2500,0.1,0.9,Four-of-a-Kind
+PatientPlayer,2500,0.1,0.9,Straight flush
+PatientPlayer,2500,0.5,0.1,High card
+PatientPlayer,2500,0.5,0.1,One pair
+PatientPlayer,2500,0.5,0.1,Two pair
+PatientPlayer,2500,0.5,0.1,Three-of-a-Kind
+PatientPlayer,2500,0.5,0.1,Straight
+PatientPlayer,2500,0.5,0.1,Flush
+PatientPlayer,2500,0.5,0.1,Full house
+PatientPlayer,2500,0.5,0.1,Four-of-a-Kind
+PatientPlayer,2500,0.5,0.1,Straight flush
+PatientPlayer,2500,0.5,0.5,High card
+PatientPlayer,2500,0.5,0.5,One pair
+PatientPlayer,2500,0.5,0.5,Two pair
+PatientPlayer,2500,0.5,0.5,Three-of-a-Kind
+PatientPlayer,2500,0.5,0.5,Straight
+PatientPlayer,2500,0.5,0.5,Flush
+PatientPlayer,2500,0.5,0.5,Full house
+PatientPlayer,2500,0.5,0.5,Four-of-a-Kind
+PatientPlayer,2500,0.5,0.5,Straight flush
+PatientPlayer,2500,0.5,0.9,High card
+PatientPlayer,2500,0.5,0.9,One pair
+PatientPlayer,2500,0.5,0.9,Two pair
+PatientPlayer,2500,0.5,0.9,Three-of-a-Kind
+PatientPlayer,2500,0.5,0.9,Straight
+PatientPlayer,2500,0.5,0.9,Flush
+PatientPlayer,2500,0.5,0.9,Full house
+PatientPlayer,2500,0.5,0.9,Four-of-a-Kind
+PatientPlayer,2500,0.5,0.9,Straight flush
+PatientPlayer,2500,0.9,0.1,High card
+PatientPlayer,2500,0.9,0.1,One pair
+PatientPlayer,2500,0.9,0.1,Two pair
+PatientPlayer,2500,0.9,0.1,Three-of-a-Kind
+PatientPlayer,2500,0.9,0.1,Straight
+PatientPlayer,2500,0.9,0.1,Flush
+PatientPlayer,2500,0.9,0.1,Full house
+PatientPlayer,2500,0.9,0.1,Four-of-a-Kind
+PatientPlayer,2500,0.9,0.1,Straight flush
+PatientPlayer,2500,0.9,0.5,High card
+PatientPlayer,2500,0.9,0.5,One pair
+PatientPlayer,2500,0.9,0.5,Two pair
+PatientPlayer,2500,0.9,0.5,Three-of-a-Kind
+PatientPlayer,2500,0.9,0.5,Straight
+PatientPlayer,2500,0.9,0.5,Flush
+PatientPlayer,2500,0.9,0.5,Full house
+PatientPlayer,2500,0.9,0.5,Four-of-a-Kind
+PatientPlayer,2500,0.9,0.5,Straight flush
+PatientPlayer,2500,0.9,0.9,High card
+PatientPlayer,2500,0.9,0.9,One pair
+PatientPlayer,2500,0.9,0.9,Two pair
+PatientPlayer,2500,0.9,0.9,Three-of-a-Kind
+PatientPlayer,2500,0.9,0.9,Straight
+PatientPlayer,2500,0.9,0.9,Flush
+PatientPlayer,2500,0.9,0.9,Full house
+PatientPlayer,2500,0.9,0.9,Four-of-a-Kind
+PatientPlayer,2500,0.9,0.9,Straight flush
+PatientPlayer,5000,0.1,0.1,High card
+PatientPlayer,5000,0.1,0.1,One pair
+PatientPlayer,5000,0.1,0.1,Two pair
+PatientPlayer,5000,0.1,0.1,Three-of-a-Kind
+PatientPlayer,5000,0.1,0.1,Straight
+PatientPlayer,5000,0.1,0.1,Flush
+PatientPlayer,5000,0.1,0.1,Full house
+PatientPlayer,5000,0.1,0.1,Four-of-a-Kind
+PatientPlayer,5000,0.1,0.1,Straight flush
+PatientPlayer,5000,0.1,0.5,High card
+PatientPlayer,5000,0.1,0.5,One pair
+PatientPlayer,5000,0.1,0.5,Two pair
+PatientPlayer,5000,0.1,0.5,Three-of-a-Kind
+PatientPlayer,5000,0.1,0.5,Straight
+PatientPlayer,5000,0.1,0.5,Flush
+PatientPlayer,5000,0.1,0.5,Full house
+PatientPlayer,5000,0.1,0.5,Four-of-a-Kind
+PatientPlayer,5000,0.1,0.5,Straight flush
+PatientPlayer,5000,0.1,0.9,High card
+PatientPlayer,5000,0.1,0.9,One pair
+PatientPlayer,5000,0.1,0.9,Two pair
+PatientPlayer,5000,0.1,0.9,Three-of-a-Kind
+PatientPlayer,5000,0.1,0.9,Straight
+PatientPlayer,5000,0.1,0.9,Flush
+PatientPlayer,5000,0.1,0.9,Full house
+PatientPlayer,5000,0.1,0.9,Four-of-a-Kind
+PatientPlayer,5000,0.1,0.9,Straight flush
+PatientPlayer,5000,0.5,0.1,High card
+PatientPlayer,5000,0.5,0.1,One pair
+PatientPlayer,5000,0.5,0.1,Two pair
+PatientPlayer,5000,0.5,0.1,Three-of-a-Kind
+PatientPlayer,5000,0.5,0.1,Straight
+PatientPlayer,5000,0.5,0.1,Flush
+PatientPlayer,5000,0.5,0.1,Full house
+PatientPlayer,5000,0.5,0.1,Four-of-a-Kind
+PatientPlayer,5000,0.5,0.1,Straight flush
+PatientPlayer,5000,0.5,0.5,High card
+PatientPlayer,5000,0.5,0.5,One pair
+PatientPlayer,5000,0.5,0.5,Two pair
+PatientPlayer,5000,0.5,0.5,Three-of-a-Kind
+PatientPlayer,5000,0.5,0.5,Straight
+PatientPlayer,5000,0.5,0.5,Flush
+PatientPlayer,5000,0.5,0.5,Full house
+PatientPlayer,5000,0.5,0.5,Four-of-a-Kind
+PatientPlayer,5000,0.5,0.5,Straight flush
+PatientPlayer,5000,0.5,0.9,High card
+PatientPlayer,5000,0.5,0.9,One pair
+PatientPlayer,5000,0.5,0.9,Two pair
+PatientPlayer,5000,0.5,0.9,Three-of-a-Kind
+PatientPlayer,5000,0.5,0.9,Straight
+PatientPlayer,5000,0.5,0.9,Flush
+PatientPlayer,5000,0.5,0.9,Full house
+PatientPlayer,5000,0.5,0.9,Four-of-a-Kind
+PatientPlayer,5000,0.5,0.9,Straight flush
+PatientPlayer,5000,0.9,0.1,High card
+PatientPlayer,5000,0.9,0.1,One pair
+PatientPlayer,5000,0.9,0.1,Two pair
+PatientPlayer,5000,0.9,0.1,Three-of-a-Kind
+PatientPlayer,5000,0.9,0.1,Straight
+PatientPlayer,5000,0.9,0.1,Flush
+PatientPlayer,5000,0.9,0.1,Full house
+PatientPlayer,5000,0.9,0.1,Four-of-a-Kind
+PatientPlayer,5000,0.9,0.1,Straight flush
+PatientPlayer,5000,0.9,0.5,High card
+PatientPlayer,5000,0.9,0.5,One pair
+PatientPlayer,5000,0.9,0.5,Two pair
+PatientPlayer,5000,0.9,0.5,Three-of-a-Kind
+PatientPlayer,5000,0.9,0.5,Straight
+PatientPlayer,5000,0.9,0.5,Flush
+PatientPlayer,5000,0.9,0.5,Full house
+PatientPlayer,5000,0.9,0.5,Four-of-a-Kind
+PatientPlayer,5000,0.9,0.5,Straight flush
+PatientPlayer,5000,0.9,0.9,High card
+PatientPlayer,5000,0.9,0.9,One pair
+PatientPlayer,5000,0.9,0.9,Two pair
+PatientPlayer,5000,0.9,0.9,Three-of-a-Kind
+PatientPlayer,5000,0.9,0.9,Straight
+PatientPlayer,5000,0.9,0.9,Flush
+PatientPlayer,5000,0.9,0.9,Full house
+PatientPlayer,5000,0.9,0.9,Four-of-a-Kind
+PatientPlayer,5000,0.9,0.9,Straight flush
+PatientPlayer,7500,0.1,0.1,High card
+PatientPlayer,7500,0.1,0.1,One pair
+PatientPlayer,7500,0.1,0.1,Two pair
+PatientPlayer,7500,0.1,0.1,Three-of-a-Kind
+PatientPlayer,7500,0.1,0.1,Straight
+PatientPlayer,7500,0.1,0.1,Flush
+PatientPlayer,7500,0.1,0.1,Full house
+PatientPlayer,7500,0.1,0.1,Four-of-a-Kind
+PatientPlayer,7500,0.1,0.1,Straight flush
+PatientPlayer,7500,0.1,0.5,High card
+PatientPlayer,7500,0.1,0.5,One pair
+PatientPlayer,7500,0.1,0.5,Two pair
+PatientPlayer,7500,0.1,0.5,Three-of-a-Kind
+PatientPlayer,7500,0.1,0.5,Straight
+PatientPlayer,7500,0.1,0.5,Flush
+PatientPlayer,7500,0.1,0.5,Full house
+PatientPlayer,7500,0.1,0.5,Four-of-a-Kind
+PatientPlayer,7500,0.1,0.5,Straight flush
+PatientPlayer,7500,0.1,0.9,High card
+PatientPlayer,7500,0.1,0.9,One pair
+PatientPlayer,7500,0.1,0.9,Two pair
+PatientPlayer,7500,0.1,0.9,Three-of-a-Kind
+PatientPlayer,7500,0.1,0.9,Straight
+PatientPlayer,7500,0.1,0.9,Flush
+PatientPlayer,7500,0.1,0.9,Full house
+PatientPlayer,7500,0.1,0.9,Four-of-a-Kind
+PatientPlayer,7500,0.1,0.9,Straight flush
+PatientPlayer,7500,0.5,0.1,High card
+PatientPlayer,7500,0.5,0.1,One pair
+PatientPlayer,7500,0.5,0.1,Two pair
+PatientPlayer,7500,0.5,0.1,Three-of-a-Kind
+PatientPlayer,7500,0.5,0.1,Straight
+PatientPlayer,7500,0.5,0.1,Flush
+PatientPlayer,7500,0.5,0.1,Full house
+PatientPlayer,7500,0.5,0.1,Four-of-a-Kind
+PatientPlayer,7500,0.5,0.1,Straight flush
+PatientPlayer,7500,0.5,0.5,High card
+PatientPlayer,7500,0.5,0.5,One pair
+PatientPlayer,7500,0.5,0.5,Two pair
+PatientPlayer,7500,0.5,0.5,Three-of-a-Kind
+PatientPlayer,7500,0.5,0.5,Straight
+PatientPlayer,7500,0.5,0.5,Flush
+PatientPlayer,7500,0.5,0.5,Full house
+PatientPlayer,7500,0.5,0.5,Four-of-a-Kind
+PatientPlayer,7500,0.5,0.5,Straight flush
+PatientPlayer,7500,0.5,0.9,High card
+PatientPlayer,7500,0.5,0.9,One pair
+PatientPlayer,7500,0.5,0.9,Two pair
+PatientPlayer,7500,0.5,0.9,Three-of-a-Kind
+PatientPlayer,7500,0.5,0.9,Straight
+PatientPlayer,7500,0.5,0.9,Flush
+PatientPlayer,7500,0.5,0.9,Full house
+PatientPlayer,7500,0.5,0.9,Four-of-a-Kind
+PatientPlayer,7500,0.5,0.9,Straight flush
+PatientPlayer,7500,0.9,0.1,High card
+PatientPlayer,7500,0.9,0.1,One pair
+PatientPlayer,7500,0.9,0.1,Two pair
+PatientPlayer,7500,0.9,0.1,Three-of-a-Kind
+PatientPlayer,7500,0.9,0.1,Straight
+PatientPlayer,7500,0.9,0.1,Flush
+PatientPlayer,7500,0.9,0.1,Full house
+PatientPlayer,7500,0.9,0.1,Four-of-a-Kind
+PatientPlayer,7500,0.9,0.1,Straight flush
+PatientPlayer,7500,0.9,0.5,High card
+PatientPlayer,7500,0.9,0.5,One pair
+PatientPlayer,7500,0.9,0.5,Two pair
+PatientPlayer,7500,0.9,0.5,Three-of-a-Kind
+PatientPlayer,7500,0.9,0.5,Straight
+PatientPlayer,7500,0.9,0.5,Flush
+PatientPlayer,7500,0.9,0.5,Full house
+PatientPlayer,7500,0.9,0.5,Four-of-a-Kind
+PatientPlayer,7500,0.9,0.5,Straight flush
+PatientPlayer,7500,0.9,0.9,High card
+PatientPlayer,7500,0.9,0.9,One pair
+PatientPlayer,7500,0.9,0.9,Two pair
+PatientPlayer,7500,0.9,0.9,Three-of-a-Kind
+PatientPlayer,7500,0.9,0.9,Straight
+PatientPlayer,7500,0.9,0.9,Flush
+PatientPlayer,7500,0.9,0.9,Full house
+PatientPlayer,7500,0.9,0.9,Four-of-a-Kind
+PatientPlayer,7500,0.9,0.9,Straight flush
+PatientPlayer,10000,0.1,0.1,High card
+PatientPlayer,10000,0.1,0.1,One pair
+PatientPlayer,10000,0.1,0.1,Two pair
+PatientPlayer,10000,0.1,0.1,Three-of-a-Kind
+PatientPlayer,10000,0.1,0.1,Straight
+PatientPlayer,10000,0.1,0.1,Flush
+PatientPlayer,10000,0.1,0.1,Full house
+PatientPlayer,10000,0.1,0.1,Four-of-a-Kind
+PatientPlayer,10000,0.1,0.1,Straight flush
+PatientPlayer,10000,0.1,0.5,High card
+PatientPlayer,10000,0.1,0.5,One pair
+PatientPlayer,10000,0.1,0.5,Two pair
+PatientPlayer,10000,0.1,0.5,Three-of-a-Kind
+PatientPlayer,10000,0.1,0.5,Straight
+PatientPlayer,10000,0.1,0.5,Flush
+PatientPlayer,10000,0.1,0.5,Full house
+PatientPlayer,10000,0.1,0.5,Four-of-a-Kind
+PatientPlayer,10000,0.1,0.5,Straight flush
+PatientPlayer,10000,0.1,0.9,High card
+PatientPlayer,10000,0.1,0.9,One pair
+PatientPlayer,10000,0.1,0.9,Two pair
+PatientPlayer,10000,0.1,0.9,Three-of-a-Kind
+PatientPlayer,10000,0.1,0.9,Straight
+PatientPlayer,10000,0.1,0.9,Flush
+PatientPlayer,10000,0.1,0.9,Full house
+PatientPlayer,10000,0.1,0.9,Four-of-a-Kind
+PatientPlayer,10000,0.1,0.9,Straight flush
+PatientPlayer,10000,0.5,0.1,High card
+PatientPlayer,10000,0.5,0.1,One pair
+PatientPlayer,10000,0.5,0.1,Two pair
+PatientPlayer,10000,0.5,0.1,Three-of-a-Kind
+PatientPlayer,10000,0.5,0.1,Straight
+PatientPlayer,10000,0.5,0.1,Flush
+PatientPlayer,10000,0.5,0.1,Full house
+PatientPlayer,10000,0.5,0.1,Four-of-a-Kind
+PatientPlayer,10000,0.5,0.1,Straight flush
+PatientPlayer,10000,0.5,0.5,High card
+PatientPlayer,10000,0.5,0.5,One pair
+PatientPlayer,10000,0.5,0.5,Two pair
+PatientPlayer,10000,0.5,0.5,Three-of-a-Kind
+PatientPlayer,10000,0.5,0.5,Straight
+PatientPlayer,10000,0.5,0.5,Flush
+PatientPlayer,10000,0.5,0.5,Full house
+PatientPlayer,10000,0.5,0.5,Four-of-a-Kind
+PatientPlayer,10000,0.5,0.5,Straight flush
+PatientPlayer,10000,0.5,0.9,High card
+PatientPlayer,10000,0.5,0.9,One pair
+PatientPlayer,10000,0.5,0.9,Two pair
+PatientPlayer,10000,0.5,0.9,Three-of-a-Kind
+PatientPlayer,10000,0.5,0.9,Straight
+PatientPlayer,10000,0.5,0.9,Flush
+PatientPlayer,10000,0.5,0.9,Full house
+PatientPlayer,10000,0.5,0.9,Four-of-a-Kind
+PatientPlayer,10000,0.5,0.9,Straight flush
+PatientPlayer,10000,0.9,0.1,High card
+PatientPlayer,10000,0.9,0.1,One pair
+PatientPlayer,10000,0.9,0.1,Two pair
+PatientPlayer,10000,0.9,0.1,Three-of-a-Kind
+PatientPlayer,10000,0.9,0.1,Straight
+PatientPlayer,10000,0.9,0.1,Flush
+PatientPlayer,10000,0.9,0.1,Full house
+PatientPlayer,10000,0.9,0.1,Four-of-a-Kind
+PatientPlayer,10000,0.9,0.1,Straight flush
+PatientPlayer,10000,0.9,0.5,High card
+PatientPlayer,10000,0.9,0.5,One pair
+PatientPlayer,10000,0.9,0.5,Two pair
+PatientPlayer,10000,0.9,0.5,Three-of-a-Kind
+PatientPlayer,10000,0.9,0.5,Straight
+PatientPlayer,10000,0.9,0.5,Flush
+PatientPlayer,10000,0.9,0.5,Full house
+PatientPlayer,10000,0.9,0.5,Four-of-a-Kind
+PatientPlayer,10000,0.9,0.5,Straight flush
+PatientPlayer,10000,0.9,0.9,High card
+PatientPlayer,10000,0.9,0.9,One pair
+PatientPlayer,10000,0.9,0.9,Two pair
+PatientPlayer,10000,0.9,0.9,Three-of-a-Kind
+PatientPlayer,10000,0.9,0.9,Straight
+PatientPlayer,10000,0.9,0.9,Flush
+PatientPlayer,10000,0.9,0.9,Full house
+PatientPlayer,10000,0.9,0.9,Four-of-a-Kind
+PatientPlayer,10000,0.9,0.9,Straight flush
+PassivePlayer,500,0.1,0.1,High card
+PassivePlayer,500,0.1,0.1,One pair
+PassivePlayer,500,0.1,0.1,Two pair
+PassivePlayer,500,0.1,0.1,Three-of-a-Kind
+PassivePlayer,500,0.1,0.1,Straight
+PassivePlayer,500,0.1,0.1,Flush
+PassivePlayer,500,0.1,0.1,Full house
+PassivePlayer,500,0.1,0.1,Four-of-a-Kind
+PassivePlayer,500,0.1,0.1,Straight flush
+PassivePlayer,500,0.1,0.5,High card
+PassivePlayer,500,0.1,0.5,One pair
+PassivePlayer,500,0.1,0.5,Two pair
+PassivePlayer,500,0.1,0.5,Three-of-a-Kind
+PassivePlayer,500,0.1,0.5,Straight
+PassivePlayer,500,0.1,0.5,Flush
+PassivePlayer,500,0.1,0.5,Full house
+PassivePlayer,500,0.1,0.5,Four-of-a-Kind
+PassivePlayer,500,0.1,0.5,Straight flush
+PassivePlayer,500,0.1,0.9,High card
+PassivePlayer,500,0.1,0.9,One pair
+PassivePlayer,500,0.1,0.9,Two pair
+PassivePlayer,500,0.1,0.9,Three-of-a-Kind
+PassivePlayer,500,0.1,0.9,Straight
+PassivePlayer,500,0.1,0.9,Flush
+PassivePlayer,500,0.1,0.9,Full house
+PassivePlayer,500,0.1,0.9,Four-of-a-Kind
+PassivePlayer,500,0.1,0.9,Straight flush
+PassivePlayer,500,0.5,0.1,High card
+PassivePlayer,500,0.5,0.1,One pair
+PassivePlayer,500,0.5,0.1,Two pair
+PassivePlayer,500,0.5,0.1,Three-of-a-Kind
+PassivePlayer,500,0.5,0.1,Straight
+PassivePlayer,500,0.5,0.1,Flush
+PassivePlayer,500,0.5,0.1,Full house
+PassivePlayer,500,0.5,0.1,Four-of-a-Kind
+PassivePlayer,500,0.5,0.1,Straight flush
+PassivePlayer,500,0.5,0.5,High card
+PassivePlayer,500,0.5,0.5,One pair
+PassivePlayer,500,0.5,0.5,Two pair
+PassivePlayer,500,0.5,0.5,Three-of-a-Kind
+PassivePlayer,500,0.5,0.5,Straight
+PassivePlayer,500,0.5,0.5,Flush
+PassivePlayer,500,0.5,0.5,Full house
+PassivePlayer,500,0.5,0.5,Four-of-a-Kind
+PassivePlayer,500,0.5,0.5,Straight flush
+PassivePlayer,500,0.5,0.9,High card
+PassivePlayer,500,0.5,0.9,One pair
+PassivePlayer,500,0.5,0.9,Two pair
+PassivePlayer,500,0.5,0.9,Three-of-a-Kind
+PassivePlayer,500,0.5,0.9,Straight
+PassivePlayer,500,0.5,0.9,Flush
+PassivePlayer,500,0.5,0.9,Full house
+PassivePlayer,500,0.5,0.9,Four-of-a-Kind
+PassivePlayer,500,0.5,0.9,Straight flush
+PassivePlayer,500,0.9,0.1,High card
+PassivePlayer,500,0.9,0.1,One pair
+PassivePlayer,500,0.9,0.1,Two pair
+PassivePlayer,500,0.9,0.1,Three-of-a-Kind
+PassivePlayer,500,0.9,0.1,Straight
+PassivePlayer,500,0.9,0.1,Flush
+PassivePlayer,500,0.9,0.1,Full house
+PassivePlayer,500,0.9,0.1,Four-of-a-Kind
+PassivePlayer,500,0.9,0.1,Straight flush
+PassivePlayer,500,0.9,0.5,High card
+PassivePlayer,500,0.9,0.5,One pair
+PassivePlayer,500,0.9,0.5,Two pair
+PassivePlayer,500,0.9,0.5,Three-of-a-Kind
+PassivePlayer,500,0.9,0.5,Straight
+PassivePlayer,500,0.9,0.5,Flush
+PassivePlayer,500,0.9,0.5,Full house
+PassivePlayer,500,0.9,0.5,Four-of-a-Kind
+PassivePlayer,500,0.9,0.5,Straight flush
+PassivePlayer,500,0.9,0.9,High card
+PassivePlayer,500,0.9,0.9,One pair
+PassivePlayer,500,0.9,0.9,Two pair
+PassivePlayer,500,0.9,0.9,Three-of-a-Kind
+PassivePlayer,500,0.9,0.9,Straight
+PassivePlayer,500,0.9,0.9,Flush
+PassivePlayer,500,0.9,0.9,Full house
+PassivePlayer,500,0.9,0.9,Four-of-a-Kind
+PassivePlayer,500,0.9,0.9,Straight flush
+PassivePlayer,2500,0.1,0.1,High card
+PassivePlayer,2500,0.1,0.1,One pair
+PassivePlayer,2500,0.1,0.1,Two pair
+PassivePlayer,2500,0.1,0.1,Three-of-a-Kind
+PassivePlayer,2500,0.1,0.1,Straight
+PassivePlayer,2500,0.1,0.1,Flush
+PassivePlayer,2500,0.1,0.1,Full house
+PassivePlayer,2500,0.1,0.1,Four-of-a-Kind
+PassivePlayer,2500,0.1,0.1,Straight flush
+PassivePlayer,2500,0.1,0.5,High card
+PassivePlayer,2500,0.1,0.5,One pair
+PassivePlayer,2500,0.1,0.5,Two pair
+PassivePlayer,2500,0.1,0.5,Three-of-a-Kind
+PassivePlayer,2500,0.1,0.5,Straight
+PassivePlayer,2500,0.1,0.5,Flush
+PassivePlayer,2500,0.1,0.5,Full house
+PassivePlayer,2500,0.1,0.5,Four-of-a-Kind
+PassivePlayer,2500,0.1,0.5,Straight flush
+PassivePlayer,2500,0.1,0.9,High card
+PassivePlayer,2500,0.1,0.9,One pair
+PassivePlayer,2500,0.1,0.9,Two pair
+PassivePlayer,2500,0.1,0.9,Three-of-a-Kind
+PassivePlayer,2500,0.1,0.9,Straight
+PassivePlayer,2500,0.1,0.9,Flush
+PassivePlayer,2500,0.1,0.9,Full house
+PassivePlayer,2500,0.1,0.9,Four-of-a-Kind
+PassivePlayer,2500,0.1,0.9,Straight flush
+PassivePlayer,2500,0.5,0.1,High card
+PassivePlayer,2500,0.5,0.1,One pair
+PassivePlayer,2500,0.5,0.1,Two pair
+PassivePlayer,2500,0.5,0.1,Three-of-a-Kind
+PassivePlayer,2500,0.5,0.1,Straight
+PassivePlayer,2500,0.5,0.1,Flush
+PassivePlayer,2500,0.5,0.1,Full house
+PassivePlayer,2500,0.5,0.1,Four-of-a-Kind
+PassivePlayer,2500,0.5,0.1,Straight flush
+PassivePlayer,2500,0.5,0.5,High card
+PassivePlayer,2500,0.5,0.5,One pair
+PassivePlayer,2500,0.5,0.5,Two pair
+PassivePlayer,2500,0.5,0.5,Three-of-a-Kind
+PassivePlayer,2500,0.5,0.5,Straight
+PassivePlayer,2500,0.5,0.5,Flush
+PassivePlayer,2500,0.5,0.5,Full house
+PassivePlayer,2500,0.5,0.5,Four-of-a-Kind
+PassivePlayer,2500,0.5,0.5,Straight flush
+PassivePlayer,2500,0.5,0.9,High card
+PassivePlayer,2500,0.5,0.9,One pair
+PassivePlayer,2500,0.5,0.9,Two pair
+PassivePlayer,2500,0.5,0.9,Three-of-a-Kind
+PassivePlayer,2500,0.5,0.9,Straight
+PassivePlayer,2500,0.5,0.9,Flush
+PassivePlayer,2500,0.5,0.9,Full house
+PassivePlayer,2500,0.5,0.9,Four-of-a-Kind
+PassivePlayer,2500,0.5,0.9,Straight flush
+PassivePlayer,2500,0.9,0.1,High card
+PassivePlayer,2500,0.9,0.1,One pair
+PassivePlayer,2500,0.9,0.1,Two pair
+PassivePlayer,2500,0.9,0.1,Three-of-a-Kind
+PassivePlayer,2500,0.9,0.1,Straight
+PassivePlayer,2500,0.9,0.1,Flush
+PassivePlayer,2500,0.9,0.1,Full house
+PassivePlayer,2500,0.9,0.1,Four-of-a-Kind
+PassivePlayer,2500,0.9,0.1,Straight flush
+PassivePlayer,2500,0.9,0.5,High card
+PassivePlayer,2500,0.9,0.5,One pair
+PassivePlayer,2500,0.9,0.5,Two pair
+PassivePlayer,2500,0.9,0.5,Three-of-a-Kind
+PassivePlayer,2500,0.9,0.5,Straight
+PassivePlayer,2500,0.9,0.5,Flush
+PassivePlayer,2500,0.9,0.5,Full house
+PassivePlayer,2500,0.9,0.5,Four-of-a-Kind
+PassivePlayer,2500,0.9,0.5,Straight flush
+PassivePlayer,2500,0.9,0.9,High card
+PassivePlayer,2500,0.9,0.9,One pair
+PassivePlayer,2500,0.9,0.9,Two pair
+PassivePlayer,2500,0.9,0.9,Three-of-a-Kind
+PassivePlayer,2500,0.9,0.9,Straight
+PassivePlayer,2500,0.9,0.9,Flush
+PassivePlayer,2500,0.9,0.9,Full house
+PassivePlayer,2500,0.9,0.9,Four-of-a-Kind
+PassivePlayer,2500,0.9,0.9,Straight flush
+PassivePlayer,5000,0.1,0.1,High card
+PassivePlayer,5000,0.1,0.1,One pair
+PassivePlayer,5000,0.1,0.1,Two pair
+PassivePlayer,5000,0.1,0.1,Three-of-a-Kind
+PassivePlayer,5000,0.1,0.1,Straight
+PassivePlayer,5000,0.1,0.1,Flush
+PassivePlayer,5000,0.1,0.1,Full house
+PassivePlayer,5000,0.1,0.1,Four-of-a-Kind
+PassivePlayer,5000,0.1,0.1,Straight flush
+PassivePlayer,5000,0.1,0.5,High card
+PassivePlayer,5000,0.1,0.5,One pair
+PassivePlayer,5000,0.1,0.5,Two pair
+PassivePlayer,5000,0.1,0.5,Three-of-a-Kind
+PassivePlayer,5000,0.1,0.5,Straight
+PassivePlayer,5000,0.1,0.5,Flush
+PassivePlayer,5000,0.1,0.5,Full house
+PassivePlayer,5000,0.1,0.5,Four-of-a-Kind
+PassivePlayer,5000,0.1,0.5,Straight flush
+PassivePlayer,5000,0.1,0.9,High card
+PassivePlayer,5000,0.1,0.9,One pair
+PassivePlayer,5000,0.1,0.9,Two pair
+PassivePlayer,5000,0.1,0.9,Three-of-a-Kind
+PassivePlayer,5000,0.1,0.9,Straight
+PassivePlayer,5000,0.1,0.9,Flush
+PassivePlayer,5000,0.1,0.9,Full house
+PassivePlayer,5000,0.1,0.9,Four-of-a-Kind
+PassivePlayer,5000,0.1,0.9,Straight flush
+PassivePlayer,5000,0.5,0.1,High card
+PassivePlayer,5000,0.5,0.1,One pair
+PassivePlayer,5000,0.5,0.1,Two pair
+PassivePlayer,5000,0.5,0.1,Three-of-a-Kind
+PassivePlayer,5000,0.5,0.1,Straight
+PassivePlayer,5000,0.5,0.1,Flush
+PassivePlayer,5000,0.5,0.1,Full house
+PassivePlayer,5000,0.5,0.1,Four-of-a-Kind
+PassivePlayer,5000,0.5,0.1,Straight flush
+PassivePlayer,5000,0.5,0.5,High card
+PassivePlayer,5000,0.5,0.5,One pair
+PassivePlayer,5000,0.5,0.5,Two pair
+PassivePlayer,5000,0.5,0.5,Three-of-a-Kind
+PassivePlayer,5000,0.5,0.5,Straight
+PassivePlayer,5000,0.5,0.5,Flush
+PassivePlayer,5000,0.5,0.5,Full house
+PassivePlayer,5000,0.5,0.5,Four-of-a-Kind
+PassivePlayer,5000,0.5,0.5,Straight flush
+PassivePlayer,5000,0.5,0.9,High card
+PassivePlayer,5000,0.5,0.9,One pair
+PassivePlayer,5000,0.5,0.9,Two pair
+PassivePlayer,5000,0.5,0.9,Three-of-a-Kind
+PassivePlayer,5000,0.5,0.9,Straight
+PassivePlayer,5000,0.5,0.9,Flush
+PassivePlayer,5000,0.5,0.9,Full house
+PassivePlayer,5000,0.5,0.9,Four-of-a-Kind
+PassivePlayer,5000,0.5,0.9,Straight flush
+PassivePlayer,5000,0.9,0.1,High card
+PassivePlayer,5000,0.9,0.1,One pair
+PassivePlayer,5000,0.9,0.1,Two pair
+PassivePlayer,5000,0.9,0.1,Three-of-a-Kind
+PassivePlayer,5000,0.9,0.1,Straight
+PassivePlayer,5000,0.9,0.1,Flush
+PassivePlayer,5000,0.9,0.1,Full house
+PassivePlayer,5000,0.9,0.1,Four-of-a-Kind
+PassivePlayer,5000,0.9,0.1,Straight flush
+PassivePlayer,5000,0.9,0.5,High card
+PassivePlayer,5000,0.9,0.5,One pair
+PassivePlayer,5000,0.9,0.5,Two pair
+PassivePlayer,5000,0.9,0.5,Three-of-a-Kind
+PassivePlayer,5000,0.9,0.5,Straight
+PassivePlayer,5000,0.9,0.5,Flush
+PassivePlayer,5000,0.9,0.5,Full house
+PassivePlayer,5000,0.9,0.5,Four-of-a-Kind
+PassivePlayer,5000,0.9,0.5,Straight flush
+PassivePlayer,5000,0.9,0.9,High card
+PassivePlayer,5000,0.9,0.9,One pair
+PassivePlayer,5000,0.9,0.9,Two pair
+PassivePlayer,5000,0.9,0.9,Three-of-a-Kind
+PassivePlayer,5000,0.9,0.9,Straight
+PassivePlayer,5000,0.9,0.9,Flush
+PassivePlayer,5000,0.9,0.9,Full house
+PassivePlayer,5000,0.9,0.9,Four-of-a-Kind
+PassivePlayer,5000,0.9,0.9,Straight flush
+PassivePlayer,7500,0.1,0.1,High card
+PassivePlayer,7500,0.1,0.1,One pair
+PassivePlayer,7500,0.1,0.1,Two pair
+PassivePlayer,7500,0.1,0.1,Three-of-a-Kind
+PassivePlayer,7500,0.1,0.1,Straight
+PassivePlayer,7500,0.1,0.1,Flush
+PassivePlayer,7500,0.1,0.1,Full house
+PassivePlayer,7500,0.1,0.1,Four-of-a-Kind
+PassivePlayer,7500,0.1,0.1,Straight flush
+PassivePlayer,7500,0.1,0.5,High card
+PassivePlayer,7500,0.1,0.5,One pair
+PassivePlayer,7500,0.1,0.5,Two pair
+PassivePlayer,7500,0.1,0.5,Three-of-a-Kind
+PassivePlayer,7500,0.1,0.5,Straight
+PassivePlayer,7500,0.1,0.5,Flush
+PassivePlayer,7500,0.1,0.5,Full house
+PassivePlayer,7500,0.1,0.5,Four-of-a-Kind
+PassivePlayer,7500,0.1,0.5,Straight flush
+PassivePlayer,7500,0.1,0.9,High card
+PassivePlayer,7500,0.1,0.9,One pair
+PassivePlayer,7500,0.1,0.9,Two pair
+PassivePlayer,7500,0.1,0.9,Three-of-a-Kind
+PassivePlayer,7500,0.1,0.9,Straight
+PassivePlayer,7500,0.1,0.9,Flush
+PassivePlayer,7500,0.1,0.9,Full house
+PassivePlayer,7500,0.1,0.9,Four-of-a-Kind
+PassivePlayer,7500,0.1,0.9,Straight flush
+PassivePlayer,7500,0.5,0.1,High card
+PassivePlayer,7500,0.5,0.1,One pair
+PassivePlayer,7500,0.5,0.1,Two pair
+PassivePlayer,7500,0.5,0.1,Three-of-a-Kind
+PassivePlayer,7500,0.5,0.1,Straight
+PassivePlayer,7500,0.5,0.1,Flush
+PassivePlayer,7500,0.5,0.1,Full house
+PassivePlayer,7500,0.5,0.1,Four-of-a-Kind
+PassivePlayer,7500,0.5,0.1,Straight flush
+PassivePlayer,7500,0.5,0.5,High card
+PassivePlayer,7500,0.5,0.5,One pair
+PassivePlayer,7500,0.5,0.5,Two pair
+PassivePlayer,7500,0.5,0.5,Three-of-a-Kind
+PassivePlayer,7500,0.5,0.5,Straight
+PassivePlayer,7500,0.5,0.5,Flush
+PassivePlayer,7500,0.5,0.5,Full house
+PassivePlayer,7500,0.5,0.5,Four-of-a-Kind
+PassivePlayer,7500,0.5,0.5,Straight flush
+PassivePlayer,7500,0.5,0.9,High card
+PassivePlayer,7500,0.5,0.9,One pair
+PassivePlayer,7500,0.5,0.9,Two pair
+PassivePlayer,7500,0.5,0.9,Three-of-a-Kind
+PassivePlayer,7500,0.5,0.9,Straight
+PassivePlayer,7500,0.5,0.9,Flush
+PassivePlayer,7500,0.5,0.9,Full house
+PassivePlayer,7500,0.5,0.9,Four-of-a-Kind
+PassivePlayer,7500,0.5,0.9,Straight flush
+PassivePlayer,7500,0.9,0.1,High card
+PassivePlayer,7500,0.9,0.1,One pair
+PassivePlayer,7500,0.9,0.1,Two pair
+PassivePlayer,7500,0.9,0.1,Three-of-a-Kind
+PassivePlayer,7500,0.9,0.1,Straight
+PassivePlayer,7500,0.9,0.1,Flush
+PassivePlayer,7500,0.9,0.1,Full house
+PassivePlayer,7500,0.9,0.1,Four-of-a-Kind
+PassivePlayer,7500,0.9,0.1,Straight flush
+PassivePlayer,7500,0.9,0.5,High card
+PassivePlayer,7500,0.9,0.5,One pair
+PassivePlayer,7500,0.9,0.5,Two pair
+PassivePlayer,7500,0.9,0.5,Three-of-a-Kind
+PassivePlayer,7500,0.9,0.5,Straight
+PassivePlayer,7500,0.9,0.5,Flush
+PassivePlayer,7500,0.9,0.5,Full house
+PassivePlayer,7500,0.9,0.5,Four-of-a-Kind
+PassivePlayer,7500,0.9,0.5,Straight flush
+PassivePlayer,7500,0.9,0.9,High card
+PassivePlayer,7500,0.9,0.9,One pair
+PassivePlayer,7500,0.9,0.9,Two pair
+PassivePlayer,7500,0.9,0.9,Three-of-a-Kind
+PassivePlayer,7500,0.9,0.9,Straight
+PassivePlayer,7500,0.9,0.9,Flush
+PassivePlayer,7500,0.9,0.9,Full house
+PassivePlayer,7500,0.9,0.9,Four-of-a-Kind
+PassivePlayer,7500,0.9,0.9,Straight flush
+PassivePlayer,10000,0.1,0.1,High card
+PassivePlayer,10000,0.1,0.1,One pair
+PassivePlayer,10000,0.1,0.1,Two pair
+PassivePlayer,10000,0.1,0.1,Three-of-a-Kind
+PassivePlayer,10000,0.1,0.1,Straight
+PassivePlayer,10000,0.1,0.1,Flush
+PassivePlayer,10000,0.1,0.1,Full house
+PassivePlayer,10000,0.1,0.1,Four-of-a-Kind
+PassivePlayer,10000,0.1,0.1,Straight flush
+PassivePlayer,10000,0.1,0.5,High card
+PassivePlayer,10000,0.1,0.5,One pair
+PassivePlayer,10000,0.1,0.5,Two pair
+PassivePlayer,10000,0.1,0.5,Three-of-a-Kind
+PassivePlayer,10000,0.1,0.5,Straight
+PassivePlayer,10000,0.1,0.5,Flush
+PassivePlayer,10000,0.1,0.5,Full house
+PassivePlayer,10000,0.1,0.5,Four-of-a-Kind
+PassivePlayer,10000,0.1,0.5,Straight flush
+PassivePlayer,10000,0.1,0.9,High card
+PassivePlayer,10000,0.1,0.9,One pair
+PassivePlayer,10000,0.1,0.9,Two pair
+PassivePlayer,10000,0.1,0.9,Three-of-a-Kind
+PassivePlayer,10000,0.1,0.9,Straight
+PassivePlayer,10000,0.1,0.9,Flush
+PassivePlayer,10000,0.1,0.9,Full house
+PassivePlayer,10000,0.1,0.9,Four-of-a-Kind
+PassivePlayer,10000,0.1,0.9,Straight flush
+PassivePlayer,10000,0.5,0.1,High card
+PassivePlayer,10000,0.5,0.1,One pair
+PassivePlayer,10000,0.5,0.1,Two pair
+PassivePlayer,10000,0.5,0.1,Three-of-a-Kind
+PassivePlayer,10000,0.5,0.1,Straight
+PassivePlayer,10000,0.5,0.1,Flush
+PassivePlayer,10000,0.5,0.1,Full house
+PassivePlayer,10000,0.5,0.1,Four-of-a-Kind
+PassivePlayer,10000,0.5,0.1,Straight flush
+PassivePlayer,10000,0.5,0.5,High card
+PassivePlayer,10000,0.5,0.5,One pair
+PassivePlayer,10000,0.5,0.5,Two pair
+PassivePlayer,10000,0.5,0.5,Three-of-a-Kind
+PassivePlayer,10000,0.5,0.5,Straight
+PassivePlayer,10000,0.5,0.5,Flush
+PassivePlayer,10000,0.5,0.5,Full house
+PassivePlayer,10000,0.5,0.5,Four-of-a-Kind
+PassivePlayer,10000,0.5,0.5,Straight flush
+PassivePlayer,10000,0.5,0.9,High card
+PassivePlayer,10000,0.5,0.9,One pair
+PassivePlayer,10000,0.5,0.9,Two pair
+PassivePlayer,10000,0.5,0.9,Three-of-a-Kind
+PassivePlayer,10000,0.5,0.9,Straight
+PassivePlayer,10000,0.5,0.9,Flush
+PassivePlayer,10000,0.5,0.9,Full house
+PassivePlayer,10000,0.5,0.9,Four-of-a-Kind
+PassivePlayer,10000,0.5,0.9,Straight flush
+PassivePlayer,10000,0.9,0.1,High card
+PassivePlayer,10000,0.9,0.1,One pair
+PassivePlayer,10000,0.9,0.1,Two pair
+PassivePlayer,10000,0.9,0.1,Three-of-a-Kind
+PassivePlayer,10000,0.9,0.1,Straight
+PassivePlayer,10000,0.9,0.1,Flush
+PassivePlayer,10000,0.9,0.1,Full house
+PassivePlayer,10000,0.9,0.1,Four-of-a-Kind
+PassivePlayer,10000,0.9,0.1,Straight flush
+PassivePlayer,10000,0.9,0.5,High card
+PassivePlayer,10000,0.9,0.5,One pair
+PassivePlayer,10000,0.9,0.5,Two pair
+PassivePlayer,10000,0.9,0.5,Three-of-a-Kind
+PassivePlayer,10000,0.9,0.5,Straight
+PassivePlayer,10000,0.9,0.5,Flush
+PassivePlayer,10000,0.9,0.5,Full house
+PassivePlayer,10000,0.9,0.5,Four-of-a-Kind
+PassivePlayer,10000,0.9,0.5,Straight flush
+PassivePlayer,10000,0.9,0.9,High card
+PassivePlayer,10000,0.9,0.9,One pair
+PassivePlayer,10000,0.9,0.9,Two pair
+PassivePlayer,10000,0.9,0.9,Three-of-a-Kind
+PassivePlayer,10000,0.9,0.9,Straight
+PassivePlayer,10000,0.9,0.9,Flush
+PassivePlayer,10000,0.9,0.9,Full house
+PassivePlayer,10000,0.9,0.9,Four-of-a-Kind
+PassivePlayer,10000,0.9,0.9,Straight flush
+AgressivePlayer,500,0.1,0.1,High card
+AgressivePlayer,500,0.1,0.1,One pair
+AgressivePlayer,500,0.1,0.1,Two pair
+AgressivePlayer,500,0.1,0.1,Three-of-a-Kind
+AgressivePlayer,500,0.1,0.1,Straight
+AgressivePlayer,500,0.1,0.1,Flush
+AgressivePlayer,500,0.1,0.1,Full house
+AgressivePlayer,500,0.1,0.1,Four-of-a-Kind
+AgressivePlayer,500,0.1,0.1,Straight flush
+AgressivePlayer,500,0.1,0.5,High card
+AgressivePlayer,500,0.1,0.5,One pair
+AgressivePlayer,500,0.1,0.5,Two pair
+AgressivePlayer,500,0.1,0.5,Three-of-a-Kind
+AgressivePlayer,500,0.1,0.5,Straight
+AgressivePlayer,500,0.1,0.5,Flush
+AgressivePlayer,500,0.1,0.5,Full house
+AgressivePlayer,500,0.1,0.5,Four-of-a-Kind
+AgressivePlayer,500,0.1,0.5,Straight flush
+AgressivePlayer,500,0.1,0.9,High card
+AgressivePlayer,500,0.1,0.9,One pair
+AgressivePlayer,500,0.1,0.9,Two pair
+AgressivePlayer,500,0.1,0.9,Three-of-a-Kind
+AgressivePlayer,500,0.1,0.9,Straight
+AgressivePlayer,500,0.1,0.9,Flush
+AgressivePlayer,500,0.1,0.9,Full house
+AgressivePlayer,500,0.1,0.9,Four-of-a-Kind
+AgressivePlayer,500,0.1,0.9,Straight flush
+AgressivePlayer,500,0.5,0.1,High card
+AgressivePlayer,500,0.5,0.1,One pair
+AgressivePlayer,500,0.5,0.1,Two pair
+AgressivePlayer,500,0.5,0.1,Three-of-a-Kind
+AgressivePlayer,500,0.5,0.1,Straight
+AgressivePlayer,500,0.5,0.1,Flush
+AgressivePlayer,500,0.5,0.1,Full house
+AgressivePlayer,500,0.5,0.1,Four-of-a-Kind
+AgressivePlayer,500,0.5,0.1,Straight flush
+AgressivePlayer,500,0.5,0.5,High card
+AgressivePlayer,500,0.5,0.5,One pair
+AgressivePlayer,500,0.5,0.5,Two pair
+AgressivePlayer,500,0.5,0.5,Three-of-a-Kind
+AgressivePlayer,500,0.5,0.5,Straight
+AgressivePlayer,500,0.5,0.5,Flush
+AgressivePlayer,500,0.5,0.5,Full house
+AgressivePlayer,500,0.5,0.5,Four-of-a-Kind
+AgressivePlayer,500,0.5,0.5,Straight flush
+AgressivePlayer,500,0.5,0.9,High card
+AgressivePlayer,500,0.5,0.9,One pair
+AgressivePlayer,500,0.5,0.9,Two pair
+AgressivePlayer,500,0.5,0.9,Three-of-a-Kind
+AgressivePlayer,500,0.5,0.9,Straight
+AgressivePlayer,500,0.5,0.9,Flush
+AgressivePlayer,500,0.5,0.9,Full house
+AgressivePlayer,500,0.5,0.9,Four-of-a-Kind
+AgressivePlayer,500,0.5,0.9,Straight flush
+AgressivePlayer,500,0.9,0.1,High card
+AgressivePlayer,500,0.9,0.1,One pair
+AgressivePlayer,500,0.9,0.1,Two pair
+AgressivePlayer,500,0.9,0.1,Three-of-a-Kind
+AgressivePlayer,500,0.9,0.1,Straight
+AgressivePlayer,500,0.9,0.1,Flush
+AgressivePlayer,500,0.9,0.1,Full house
+AgressivePlayer,500,0.9,0.1,Four-of-a-Kind
+AgressivePlayer,500,0.9,0.1,Straight flush
+AgressivePlayer,500,0.9,0.5,High card
+AgressivePlayer,500,0.9,0.5,One pair
+AgressivePlayer,500,0.9,0.5,Two pair
+AgressivePlayer,500,0.9,0.5,Three-of-a-Kind
+AgressivePlayer,500,0.9,0.5,Straight
+AgressivePlayer,500,0.9,0.5,Flush
+AgressivePlayer,500,0.9,0.5,Full house
+AgressivePlayer,500,0.9,0.5,Four-of-a-Kind
+AgressivePlayer,500,0.9,0.5,Straight flush
+AgressivePlayer,500,0.9,0.9,High card
+AgressivePlayer,500,0.9,0.9,One pair
+AgressivePlayer,500,0.9,0.9,Two pair
+AgressivePlayer,500,0.9,0.9,Three-of-a-Kind
+AgressivePlayer,500,0.9,0.9,Straight
+AgressivePlayer,500,0.9,0.9,Flush
+AgressivePlayer,500,0.9,0.9,Full house
+AgressivePlayer,500,0.9,0.9,Four-of-a-Kind
+AgressivePlayer,500,0.9,0.9,Straight flush
+AgressivePlayer,2500,0.1,0.1,High card
+AgressivePlayer,2500,0.1,0.1,One pair
+AgressivePlayer,2500,0.1,0.1,Two pair
+AgressivePlayer,2500,0.1,0.1,Three-of-a-Kind
+AgressivePlayer,2500,0.1,0.1,Straight
+AgressivePlayer,2500,0.1,0.1,Flush
+AgressivePlayer,2500,0.1,0.1,Full house
+AgressivePlayer,2500,0.1,0.1,Four-of-a-Kind
+AgressivePlayer,2500,0.1,0.1,Straight flush
+AgressivePlayer,2500,0.1,0.5,High card
+AgressivePlayer,2500,0.1,0.5,One pair
+AgressivePlayer,2500,0.1,0.5,Two pair
+AgressivePlayer,2500,0.1,0.5,Three-of-a-Kind
+AgressivePlayer,2500,0.1,0.5,Straight
+AgressivePlayer,2500,0.1,0.5,Flush
+AgressivePlayer,2500,0.1,0.5,Full house
+AgressivePlayer,2500,0.1,0.5,Four-of-a-Kind
+AgressivePlayer,2500,0.1,0.5,Straight flush
+AgressivePlayer,2500,0.1,0.9,High card
+AgressivePlayer,2500,0.1,0.9,One pair
+AgressivePlayer,2500,0.1,0.9,Two pair
+AgressivePlayer,2500,0.1,0.9,Three-of-a-Kind
+AgressivePlayer,2500,0.1,0.9,Straight
+AgressivePlayer,2500,0.1,0.9,Flush
+AgressivePlayer,2500,0.1,0.9,Full house
+AgressivePlayer,2500,0.1,0.9,Four-of-a-Kind
+AgressivePlayer,2500,0.1,0.9,Straight flush
+AgressivePlayer,2500,0.5,0.1,High card
+AgressivePlayer,2500,0.5,0.1,One pair
+AgressivePlayer,2500,0.5,0.1,Two pair
+AgressivePlayer,2500,0.5,0.1,Three-of-a-Kind
+AgressivePlayer,2500,0.5,0.1,Straight
+AgressivePlayer,2500,0.5,0.1,Flush
+AgressivePlayer,2500,0.5,0.1,Full house
+AgressivePlayer,2500,0.5,0.1,Four-of-a-Kind
+AgressivePlayer,2500,0.5,0.1,Straight flush
+AgressivePlayer,2500,0.5,0.5,High card
+AgressivePlayer,2500,0.5,0.5,One pair
+AgressivePlayer,2500,0.5,0.5,Two pair
+AgressivePlayer,2500,0.5,0.5,Three-of-a-Kind
+AgressivePlayer,2500,0.5,0.5,Straight
+AgressivePlayer,2500,0.5,0.5,Flush
+AgressivePlayer,2500,0.5,0.5,Full house
+AgressivePlayer,2500,0.5,0.5,Four-of-a-Kind
+AgressivePlayer,2500,0.5,0.5,Straight flush
+AgressivePlayer,2500,0.5,0.9,High card
+AgressivePlayer,2500,0.5,0.9,One pair
+AgressivePlayer,2500,0.5,0.9,Two pair
+AgressivePlayer,2500,0.5,0.9,Three-of-a-Kind
+AgressivePlayer,2500,0.5,0.9,Straight
+AgressivePlayer,2500,0.5,0.9,Flush
+AgressivePlayer,2500,0.5,0.9,Full house
+AgressivePlayer,2500,0.5,0.9,Four-of-a-Kind
+AgressivePlayer,2500,0.5,0.9,Straight flush
+AgressivePlayer,2500,0.9,0.1,High card
+AgressivePlayer,2500,0.9,0.1,One pair
+AgressivePlayer,2500,0.9,0.1,Two pair
+AgressivePlayer,2500,0.9,0.1,Three-of-a-Kind
+AgressivePlayer,2500,0.9,0.1,Straight
+AgressivePlayer,2500,0.9,0.1,Flush
+AgressivePlayer,2500,0.9,0.1,Full house
+AgressivePlayer,2500,0.9,0.1,Four-of-a-Kind
+AgressivePlayer,2500,0.9,0.1,Straight flush
+AgressivePlayer,2500,0.9,0.5,High card
+AgressivePlayer,2500,0.9,0.5,One pair
+AgressivePlayer,2500,0.9,0.5,Two pair
+AgressivePlayer,2500,0.9,0.5,Three-of-a-Kind
+AgressivePlayer,2500,0.9,0.5,Straight
+AgressivePlayer,2500,0.9,0.5,Flush
+AgressivePlayer,2500,0.9,0.5,Full house
+AgressivePlayer,2500,0.9,0.5,Four-of-a-Kind
+AgressivePlayer,2500,0.9,0.5,Straight flush
+AgressivePlayer,2500,0.9,0.9,High card
+AgressivePlayer,2500,0.9,0.9,One pair
+AgressivePlayer,2500,0.9,0.9,Two pair
+AgressivePlayer,2500,0.9,0.9,Three-of-a-Kind
+AgressivePlayer,2500,0.9,0.9,Straight
+AgressivePlayer,2500,0.9,0.9,Flush
+AgressivePlayer,2500,0.9,0.9,Full house
+AgressivePlayer,2500,0.9,0.9,Four-of-a-Kind
+AgressivePlayer,2500,0.9,0.9,Straight flush
+AgressivePlayer,5000,0.1,0.1,High card
+AgressivePlayer,5000,0.1,0.1,One pair
+AgressivePlayer,5000,0.1,0.1,Two pair
+AgressivePlayer,5000,0.1,0.1,Three-of-a-Kind
+AgressivePlayer,5000,0.1,0.1,Straight
+AgressivePlayer,5000,0.1,0.1,Flush
+AgressivePlayer,5000,0.1,0.1,Full house
+AgressivePlayer,5000,0.1,0.1,Four-of-a-Kind
+AgressivePlayer,5000,0.1,0.1,Straight flush
+AgressivePlayer,5000,0.1,0.5,High card
+AgressivePlayer,5000,0.1,0.5,One pair
+AgressivePlayer,5000,0.1,0.5,Two pair
+AgressivePlayer,5000,0.1,0.5,Three-of-a-Kind
+AgressivePlayer,5000,0.1,0.5,Straight
+AgressivePlayer,5000,0.1,0.5,Flush
+AgressivePlayer,5000,0.1,0.5,Full house
+AgressivePlayer,5000,0.1,0.5,Four-of-a-Kind
+AgressivePlayer,5000,0.1,0.5,Straight flush
+AgressivePlayer,5000,0.1,0.9,High card
+AgressivePlayer,5000,0.1,0.9,One pair
+AgressivePlayer,5000,0.1,0.9,Two pair
+AgressivePlayer,5000,0.1,0.9,Three-of-a-Kind
+AgressivePlayer,5000,0.1,0.9,Straight
+AgressivePlayer,5000,0.1,0.9,Flush
+AgressivePlayer,5000,0.1,0.9,Full house
+AgressivePlayer,5000,0.1,0.9,Four-of-a-Kind
+AgressivePlayer,5000,0.1,0.9,Straight flush
+AgressivePlayer,5000,0.5,0.1,High card
+AgressivePlayer,5000,0.5,0.1,One pair
+AgressivePlayer,5000,0.5,0.1,Two pair
+AgressivePlayer,5000,0.5,0.1,Three-of-a-Kind
+AgressivePlayer,5000,0.5,0.1,Straight
+AgressivePlayer,5000,0.5,0.1,Flush
+AgressivePlayer,5000,0.5,0.1,Full house
+AgressivePlayer,5000,0.5,0.1,Four-of-a-Kind
+AgressivePlayer,5000,0.5,0.1,Straight flush
+AgressivePlayer,5000,0.5,0.5,High card
+AgressivePlayer,5000,0.5,0.5,One pair
+AgressivePlayer,5000,0.5,0.5,Two pair
+AgressivePlayer,5000,0.5,0.5,Three-of-a-Kind
+AgressivePlayer,5000,0.5,0.5,Straight
+AgressivePlayer,5000,0.5,0.5,Flush
+AgressivePlayer,5000,0.5,0.5,Full house
+AgressivePlayer,5000,0.5,0.5,Four-of-a-Kind
+AgressivePlayer,5000,0.5,0.5,Straight flush
+AgressivePlayer,5000,0.5,0.9,High card
+AgressivePlayer,5000,0.5,0.9,One pair
+AgressivePlayer,5000,0.5,0.9,Two pair
+AgressivePlayer,5000,0.5,0.9,Three-of-a-Kind
+AgressivePlayer,5000,0.5,0.9,Straight
+AgressivePlayer,5000,0.5,0.9,Flush
+AgressivePlayer,5000,0.5,0.9,Full house
+AgressivePlayer,5000,0.5,0.9,Four-of-a-Kind
+AgressivePlayer,5000,0.5,0.9,Straight flush
+AgressivePlayer,5000,0.9,0.1,High card
+AgressivePlayer,5000,0.9,0.1,One pair
+AgressivePlayer,5000,0.9,0.1,Two pair
+AgressivePlayer,5000,0.9,0.1,Three-of-a-Kind
+AgressivePlayer,5000,0.9,0.1,Straight
+AgressivePlayer,5000,0.9,0.1,Flush
+AgressivePlayer,5000,0.9,0.1,Full house
+AgressivePlayer,5000,0.9,0.1,Four-of-a-Kind
+AgressivePlayer,5000,0.9,0.1,Straight flush
+AgressivePlayer,5000,0.9,0.5,High card
+AgressivePlayer,5000,0.9,0.5,One pair
+AgressivePlayer,5000,0.9,0.5,Two pair
+AgressivePlayer,5000,0.9,0.5,Three-of-a-Kind
+AgressivePlayer,5000,0.9,0.5,Straight
+AgressivePlayer,5000,0.9,0.5,Flush
+AgressivePlayer,5000,0.9,0.5,Full house
+AgressivePlayer,5000,0.9,0.5,Four-of-a-Kind
+AgressivePlayer,5000,0.9,0.5,Straight flush
+AgressivePlayer,5000,0.9,0.9,High card
+AgressivePlayer,5000,0.9,0.9,One pair
+AgressivePlayer,5000,0.9,0.9,Two pair
+AgressivePlayer,5000,0.9,0.9,Three-of-a-Kind
+AgressivePlayer,5000,0.9,0.9,Straight
+AgressivePlayer,5000,0.9,0.9,Flush
+AgressivePlayer,5000,0.9,0.9,Full house
+AgressivePlayer,5000,0.9,0.9,Four-of-a-Kind
+AgressivePlayer,5000,0.9,0.9,Straight flush
+AgressivePlayer,7500,0.1,0.1,High card
+AgressivePlayer,7500,0.1,0.1,One pair
+AgressivePlayer,7500,0.1,0.1,Two pair
+AgressivePlayer,7500,0.1,0.1,Three-of-a-Kind
+AgressivePlayer,7500,0.1,0.1,Straight
+AgressivePlayer,7500,0.1,0.1,Flush
+AgressivePlayer,7500,0.1,0.1,Full house
+AgressivePlayer,7500,0.1,0.1,Four-of-a-Kind
+AgressivePlayer,7500,0.1,0.1,Straight flush
+AgressivePlayer,7500,0.1,0.5,High card
+AgressivePlayer,7500,0.1,0.5,One pair
+AgressivePlayer,7500,0.1,0.5,Two pair
+AgressivePlayer,7500,0.1,0.5,Three-of-a-Kind
+AgressivePlayer,7500,0.1,0.5,Straight
+AgressivePlayer,7500,0.1,0.5,Flush
+AgressivePlayer,7500,0.1,0.5,Full house
+AgressivePlayer,7500,0.1,0.5,Four-of-a-Kind
+AgressivePlayer,7500,0.1,0.5,Straight flush
+AgressivePlayer,7500,0.1,0.9,High card
+AgressivePlayer,7500,0.1,0.9,One pair
+AgressivePlayer,7500,0.1,0.9,Two pair
+AgressivePlayer,7500,0.1,0.9,Three-of-a-Kind
+AgressivePlayer,7500,0.1,0.9,Straight
+AgressivePlayer,7500,0.1,0.9,Flush
+AgressivePlayer,7500,0.1,0.9,Full house
+AgressivePlayer,7500,0.1,0.9,Four-of-a-Kind
+AgressivePlayer,7500,0.1,0.9,Straight flush
+AgressivePlayer,7500,0.5,0.1,High card
+AgressivePlayer,7500,0.5,0.1,One pair
+AgressivePlayer,7500,0.5,0.1,Two pair
+AgressivePlayer,7500,0.5,0.1,Three-of-a-Kind
+AgressivePlayer,7500,0.5,0.1,Straight
+AgressivePlayer,7500,0.5,0.1,Flush
+AgressivePlayer,7500,0.5,0.1,Full house
+AgressivePlayer,7500,0.5,0.1,Four-of-a-Kind
+AgressivePlayer,7500,0.5,0.1,Straight flush
+AgressivePlayer,7500,0.5,0.5,High card
+AgressivePlayer,7500,0.5,0.5,One pair
+AgressivePlayer,7500,0.5,0.5,Two pair
+AgressivePlayer,7500,0.5,0.5,Three-of-a-Kind
+AgressivePlayer,7500,0.5,0.5,Straight
+AgressivePlayer,7500,0.5,0.5,Flush
+AgressivePlayer,7500,0.5,0.5,Full house
+AgressivePlayer,7500,0.5,0.5,Four-of-a-Kind
+AgressivePlayer,7500,0.5,0.5,Straight flush
+AgressivePlayer,7500,0.5,0.9,High card
+AgressivePlayer,7500,0.5,0.9,One pair
+AgressivePlayer,7500,0.5,0.9,Two pair
+AgressivePlayer,7500,0.5,0.9,Three-of-a-Kind
+AgressivePlayer,7500,0.5,0.9,Straight
+AgressivePlayer,7500,0.5,0.9,Flush
+AgressivePlayer,7500,0.5,0.9,Full house
+AgressivePlayer,7500,0.5,0.9,Four-of-a-Kind
+AgressivePlayer,7500,0.5,0.9,Straight flush
+AgressivePlayer,7500,0.9,0.1,High card
+AgressivePlayer,7500,0.9,0.1,One pair
+AgressivePlayer,7500,0.9,0.1,Two pair
+AgressivePlayer,7500,0.9,0.1,Three-of-a-Kind
+AgressivePlayer,7500,0.9,0.1,Straight
+AgressivePlayer,7500,0.9,0.1,Flush
+AgressivePlayer,7500,0.9,0.1,Full house
+AgressivePlayer,7500,0.9,0.1,Four-of-a-Kind
+AgressivePlayer,7500,0.9,0.1,Straight flush
+AgressivePlayer,7500,0.9,0.5,High card
+AgressivePlayer,7500,0.9,0.5,One pair
+AgressivePlayer,7500,0.9,0.5,Two pair
+AgressivePlayer,7500,0.9,0.5,Three-of-a-Kind
+AgressivePlayer,7500,0.9,0.5,Straight
+AgressivePlayer,7500,0.9,0.5,Flush
+AgressivePlayer,7500,0.9,0.5,Full house
+AgressivePlayer,7500,0.9,0.5,Four-of-a-Kind
+AgressivePlayer,7500,0.9,0.5,Straight flush
+AgressivePlayer,7500,0.9,0.9,High card
+AgressivePlayer,7500,0.9,0.9,One pair
+AgressivePlayer,7500,0.9,0.9,Two pair
+AgressivePlayer,7500,0.9,0.9,Three-of-a-Kind
+AgressivePlayer,7500,0.9,0.9,Straight
+AgressivePlayer,7500,0.9,0.9,Flush
+AgressivePlayer,7500,0.9,0.9,Full house
+AgressivePlayer,7500,0.9,0.9,Four-of-a-Kind
+AgressivePlayer,7500,0.9,0.9,Straight flush
+AgressivePlayer,10000,0.1,0.1,High card
+AgressivePlayer,10000,0.1,0.1,One pair
+AgressivePlayer,10000,0.1,0.1,Two pair
+AgressivePlayer,10000,0.1,0.1,Three-of-a-Kind
+AgressivePlayer,10000,0.1,0.1,Straight
+AgressivePlayer,10000,0.1,0.1,Flush
+AgressivePlayer,10000,0.1,0.1,Full house
+AgressivePlayer,10000,0.1,0.1,Four-of-a-Kind
+AgressivePlayer,10000,0.1,0.1,Straight flush
+AgressivePlayer,10000,0.1,0.5,High card
+AgressivePlayer,10000,0.1,0.5,One pair
+AgressivePlayer,10000,0.1,0.5,Two pair
+AgressivePlayer,10000,0.1,0.5,Three-of-a-Kind
+AgressivePlayer,10000,0.1,0.5,Straight
+AgressivePlayer,10000,0.1,0.5,Flush
+AgressivePlayer,10000,0.1,0.5,Full house
+AgressivePlayer,10000,0.1,0.5,Four-of-a-Kind
+AgressivePlayer,10000,0.1,0.5,Straight flush
+AgressivePlayer,10000,0.1,0.9,High card
+AgressivePlayer,10000,0.1,0.9,One pair
+AgressivePlayer,10000,0.1,0.9,Two pair
+AgressivePlayer,10000,0.1,0.9,Three-of-a-Kind
+AgressivePlayer,10000,0.1,0.9,Straight
+AgressivePlayer,10000,0.1,0.9,Flush
+AgressivePlayer,10000,0.1,0.9,Full house
+AgressivePlayer,10000,0.1,0.9,Four-of-a-Kind
+AgressivePlayer,10000,0.1,0.9,Straight flush
+AgressivePlayer,10000,0.5,0.1,High card
+AgressivePlayer,10000,0.5,0.1,One pair
+AgressivePlayer,10000,0.5,0.1,Two pair
+AgressivePlayer,10000,0.5,0.1,Three-of-a-Kind
+AgressivePlayer,10000,0.5,0.1,Straight
+AgressivePlayer,10000,0.5,0.1,Flush
+AgressivePlayer,10000,0.5,0.1,Full house
+AgressivePlayer,10000,0.5,0.1,Four-of-a-Kind
+AgressivePlayer,10000,0.5,0.1,Straight flush
+AgressivePlayer,10000,0.5,0.5,High card
+AgressivePlayer,10000,0.5,0.5,One pair
+AgressivePlayer,10000,0.5,0.5,Two pair
+AgressivePlayer,10000,0.5,0.5,Three-of-a-Kind
+AgressivePlayer,10000,0.5,0.5,Straight
+AgressivePlayer,10000,0.5,0.5,Flush
+AgressivePlayer,10000,0.5,0.5,Full house
+AgressivePlayer,10000,0.5,0.5,Four-of-a-Kind
+AgressivePlayer,10000,0.5,0.5,Straight flush
+AgressivePlayer,10000,0.5,0.9,High card
+AgressivePlayer,10000,0.5,0.9,One pair
+AgressivePlayer,10000,0.5,0.9,Two pair
+AgressivePlayer,10000,0.5,0.9,Three-of-a-Kind
+AgressivePlayer,10000,0.5,0.9,Straight
+AgressivePlayer,10000,0.5,0.9,Flush
+AgressivePlayer,10000,0.5,0.9,Full house
+AgressivePlayer,10000,0.5,0.9,Four-of-a-Kind
+AgressivePlayer,10000,0.5,0.9,Straight flush
+AgressivePlayer,10000,0.9,0.1,High card
+AgressivePlayer,10000,0.9,0.1,One pair
+AgressivePlayer,10000,0.9,0.1,Two pair
+AgressivePlayer,10000,0.9,0.1,Three-of-a-Kind
+AgressivePlayer,10000,0.9,0.1,Straight
+AgressivePlayer,10000,0.9,0.1,Flush
+AgressivePlayer,10000,0.9,0.1,Full house
+AgressivePlayer,10000,0.9,0.1,Four-of-a-Kind
+AgressivePlayer,10000,0.9,0.1,Straight flush
+AgressivePlayer,10000,0.9,0.5,High card
+AgressivePlayer,10000,0.9,0.5,One pair
+AgressivePlayer,10000,0.9,0.5,Two pair
+AgressivePlayer,10000,0.9,0.5,Three-of-a-Kind
+AgressivePlayer,10000,0.9,0.5,Straight
+AgressivePlayer,10000,0.9,0.5,Flush
+AgressivePlayer,10000,0.9,0.5,Full house
+AgressivePlayer,10000,0.9,0.5,Four-of-a-Kind
+AgressivePlayer,10000,0.9,0.5,Straight flush
+AgressivePlayer,10000,0.9,0.9,High card
+AgressivePlayer,10000,0.9,0.9,One pair
+AgressivePlayer,10000,0.9,0.9,Two pair
+AgressivePlayer,10000,0.9,0.9,Three-of-a-Kind
+AgressivePlayer,10000,0.9,0.9,Straight
+AgressivePlayer,10000,0.9,0.9,Flush
+AgressivePlayer,10000,0.9,0.9,Full house
+AgressivePlayer,10000,0.9,0.9,Four-of-a-Kind
+AgressivePlayer,10000,0.9,0.9,Straight flush

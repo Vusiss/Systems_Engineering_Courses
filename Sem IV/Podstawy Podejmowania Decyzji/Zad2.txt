@@ -1,0 +1,35 @@
+int n = 6;
+int m = 3;
+
+range Jobs = 1..n;
+range M = 1..m;
+
+int P[Jobs] = [4,3,5,2,7,8];
+
+dvar boolean x[Jobs][M];
+dvar int+ C_max;
+
+minimize C_max;
+
+subject to {
+    forall(i in Jobs)
+        sum(j in M) x[i][j] == 1;
+    
+    forall(j in M)
+        sum(i in Jobs) x[i][j] * P[i] <= C_max;
+}
+
+
+
+execute DISPLAY {
+    writeln("Optymalny czas produkcji: ", C_max);
+    for (j in M) {
+        write("Maszyna ", j, ": Zadania ");
+        for (i in Jobs) {
+            if (x[i][j] == 1) {
+                write(i, " ");
+            }
+        } 
+        writeln("");
+    }
+}

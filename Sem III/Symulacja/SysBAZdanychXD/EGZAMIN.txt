@@ -1,0 +1,102 @@
+drop table Projekty;
+drop table pracownicy;
+
+
+CREATE TABLE Pracownicy(
+    id_pracownika INT AUTO_INCREMENT PRIMARY KEY,
+    imie VARCHAR(20),
+    nazwisko VARCHAR(50),
+    narodowosc VARCHAR(20),
+    telefon INT,
+    adres_email VARCHAR(50),
+    stawka_godzinowa FLOAT,
+    data_urodzenia VARCHAR(50),
+    specjalizacja VARCHAR(50),
+    ocena_pracownika FLOAT
+);
+
+
+CREATE TABLE Projekty(
+  id_projektu INT AUTO_INCREMENT PRIMARY KEY,
+  nazwa_projektu VARCHAR(50),
+  typ_projektu VARCHAR(50),
+  budzet FLOAT,
+  czas_trwania INT,
+  rok_rozpoczecia INT,
+  opis VARCHAR(255),
+  id_pracownika INT,
+  FOREIGN KEY (id_pracownika) REFERENCES Pracownicy(id_pracownika)
+
+);
+
+INSERT INTO  Pracownicy(imie,nazwisko,narodowosc,telefon,adres_email,stawka_godzinowa,data_urodzenia,specjalizacja,ocena_pracownika)
+VALUES('Anna','Kowalska','Polska',123456789,'anna.kowalska@mail.com',60.50,1990-04-12,'programista',9.2),
+('Wiktor','Kuśnierkiewicz','Polska',378290134,'wk@email.com',39.50,2004-12-15,'HR',5.5),
+('Krzysztof','Gram','Polska',345789203,'kg@email.com',79.50,1997-05-17,'starszy Programista',9.5),
+('Adam','Paczek','Polska',765109234,'ap@email.com',27.50,1990-06-19,'sprztacz',7.4),
+('Maria','Slowna','Polska',091234673,'ms@email.com',68.50,1982-07-22,'analityk biznesowy',6.7),
+('Jerzy','Wisniewski','Polska',123698564,'jw@email.com',32.70,1992-08-12,'programista',9.4),
+('Marek','Nowak','Polska',098456372,'mn@email.com',36.50,1973-09-27,'programista',8.9),
+('Cezary','Mak','Polska',873928120,'cm@email.com',45.00,1988-10-30,'starszy Programista',8.3),
+('Patryk','Sosna','Polska',761029387,'ps@email.com',47.50,1989-11-26,'analityk biznesowy',8.5),
+('Maja','Nowa','Polska',746839209,'majanowa@email.com',39.00,2000-12-14,'programista',3.5);
+
+
+INSERT INTO Projekty (nazwa_projektu,typ_projektu,budzet,czas_trwania,rok_rozpoczecia,opis,id_pracownika)
+VALUES("system zarzadzania",'IT',120000.00,180,2023,"Aplikacja Webowa",2), 
+("strona internetowa",'IT',120000.00,270,2024,"Aplikacja Webowa",2), 
+("analiza wyników finansowych",'Analiza',120000.00,90,2023,"analiza biznesowa",5), 
+("analiza danych",'Analiza',120000.00,180,2022,"analiza danych wewnetrznych firmy",5), 
+("Projekt A",'IT',180000.00,30,2023,"analiza biznesowa",3), 
+("Projekt B",'IT',230000.00,90,2025,"Aplikacja Webowa",2), 
+("Projekt C",'IT',450000.00,180,2024,"Aplikacja Webowa",3), 
+("Projekt D",'IT',80000.00,360,2026,"Aplikacja Webowa",6), 
+("Projekt E",'IT',1680000.00,90,2022,"Aplikacja Webowa",1), 
+("Projekt F",'IT',112000.00,30,2023,"Aplikacja Webowa",1),
+("Projekt G",'IT',345000.00,180,2022,"Aplikacja Webowa",1),  
+("Projekt I",'IT',130000.00,180,2025,"Aplikacja Webowa",7), 
+("Projekt J",'IT',140000.00,270,2026,"Aplikacja Webowa",7), 
+("Projekt K",'IT',1560000.00,270,2023,"Aplikacja Webowa",6), 
+("Projekt L",'IT',160000.00,360,2024,"Aplikacja Webowa",8), 
+("Projekt M",'IT',170000.00,180,2025,"Aplikacja Webowa",9), 
+("Projekt N",'IT',180000.00,270,2025,"Aplikacja Webowa",10), 
+("Projekt O",'IT',190000.00,180,2023,"Aplikacja Webowa",9), 
+("Projekt P",'Sprzatanie',10000.00,30,2025,"sprzatanie budynku",4), 
+("Projekt R",'IT',1520000.00,180,2023,"Aplikacja Webowa",8);
+
+
+SELECT * FROM Pracownicy;
+SELECT * FROM Projekty;
+
+DESC Pracownicy;
+DESC projekty;
+
+
+SELECT p.imie, p.nazwisko, p.data_urodzenia, pk.nazwa_projektu, pk.rok_rozpoczecia, pk.typ_projektu, pk.budzet, pk.czas_trwania 
+FROM Projekty as pk
+INNER JOIN Pracownicy as p on p.id_pracownika = pk.id_pracownika
+ORDER BY p.nazwisko;
+
+SELECT p.imie, p.nazwisko, p.data_urodzenia, pk.nazwa_projektu, pk.rok_rozpoczecia, pk.typ_projektu, pk.budzet, pk.czas_trwania 
+FROM Projekty as pk
+INNER JOIN Pracownicy as p on p.id_pracownika = pk.id_pracownika
+WHERE p.data_urodzenia > 1970 AND pk.budzet > 100000
+ORDER BY p.nazwisko;
+
+
+
+CREATE VIEW widok1
+AS
+    SELECT p.imie, p.nazwisko, p.specjalizacja, p.ocena_pracownika, count(pk.id_projektu) as liczba_projektów
+    FROM pracownicy as p
+    INNER JOIN projekty as pk on pk.id_pracownika = p.id_pracownika
+    ORDER BY p.nazwisko;
+
+CALL widok1;
+
+CALL widok1
+WHERE p.ocena_pracownika > 9.0 AND ( p.specjalizacja = 'programista' OR p.specjalizacja = 'analityk systemowy'); 
+
+
+
+

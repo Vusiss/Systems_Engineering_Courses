@@ -1,0 +1,204 @@
+-- 12
+DESC staff;
+DESC store;
+DESC payment;
+DESC rental;
+
+-- 13
+SHOW CREATE TABLE staff;
+
+-- 14
+SELECT COUNT(*) FROM staff;
+SELECT COUNT(*) FROM store;
+SELECT COUNT(*) FROM payment;
+SELECT COUNT(*) FROM rental;
+
+-- 15
+DROP FUNCTION IF EXISTS funcHelloWorld;
+DELIMITER //
+CREATE FUNCTION funcHelloWorld() RETURNS VARCHAR(20)
+DETERMINISTIC
+BEGIN
+    RETURN 'Hello world!';
+END //
+DELIMITER ;
+
+-- 16
+SELECT funcHelloWorld();
+
+-- 17
+DROP FUNCTION IF EXISTS funcGreet;
+DELIMITER //
+CREATE FUNCTION funcGreet(imie VARCHAR(45), nazwisko VARCHAR(45)) RETURNS VARCHAR(100)
+DETERMINISTIC
+BEGIN
+    RETURN CONCAT('hello ', imie, ' ', nazwisko);
+END //
+DELIMITER ;
+
+-- 18
+SELECT funcGreet(first_name, last_name) FROM customer;
+
+-- 19
+SELECT funcGreet(first_name, last_name) FROM customer WHERE last_name='Johnson';
+
+-- 20
+SELECT funcGreet(first_name, last_name) FROM staff;
+
+-- 21
+DROP PROCEDURE IF EXISTS displayNames;
+DELIMITER //
+CREATE PROCEDURE displayNames(tablename VARCHAR(10), nr INT)
+BEGIN
+    CASE tablename
+        WHEN 'staff' THEN SELECT staff_id, first_name, last_name FROM staff WHERE staff_id < nr;
+        WHEN 'customer' THEN SELECT customer_id, first_name, last_name FROM customer WHERE customer_id < nr;
+    END CASE;
+END //
+DELIMITER ;
+
+-- 22
+-- SOURCE c:/temp/displaynames.sql; 
+
+-- 23
+CALL displayNames('customer', 50);
+CALL displayNames('staff', 50);
+
+-- 24
+DROP FUNCTION IF EXISTS funcInventoryInStock;
+DELIMITER //
+CREATE FUNCTION funcInventoryInStock(p_inventory_id INT) RETURNS TINYINT(1)
+DETERMINISTIC
+BEGIN
+    DECLARE v_rentals INT;
+    DECLARE v_out INT;
+    SELECT COUNT(*) INTO v_rentals FROM rental WHERE inventory_id = p_inventory_id;
+    IF v_rentals = 0 THEN
+        RETURN TRUE;
+    END IF;
+    SELECT COUNT(rental_id) INTO v_out
+    FROM inventory LEFT JOIN rental USING (inventory_id)
+    WHERE inventory.inventory_id = p_inventory_id
+      AND rental.return_date IS NULL;
+    IF v_out > 0 THEN
+        RETURN FALSE;
+    ELSE
+        RETURN TRUE;
+    END IF;
+END //
+DELIMITER ;
+
+-- 25
+-- SOURCE c:/temp/displaynames.sql;
+
+-- 26
+SELECT funcInventoryInStock(5);
+SELECT funcInventoryInStock(6);
+
+-- 27
+SHOW CREATE FUNCTION inventory_held_by_customer;
+
+-- 28
+SELECT inventory_held_by_customer(5);
+SELECT inventory_held_by_customer(6);
+
+-- 29
+DROP FUNCTION IF EXISTS funcCreationTime;
+DELIMITER //
+CREATE FUNCTION funcCreationTime(n INT) RETURNS VARCHAR(255)
+DETERMINISTIC
+BEGIN
+	DECLARE result VARCHAR(255);
+    SELECT CONCAT('Konto ', first_name, ' ', last_name, ' zostalo utworzone ', create_date) 
+    INTO result
+    FROM customer
+    LIMIT n;
+    RETURN result;
+END //
+DELIMITER ;
+
+SELECT funcCreationTime(1);
+
+DROP PROCEDURE IF EXISTS procCreationTime;
+DELIMITER //
+
+CREATE PROCEDURE procCreationTime(n INT)
+BEGIN
+    SELECT CONCAT('Konto ', first_name, ' ', last_name, ' zostalo utworzone ', create_date) AS message
+    FROM customer
+    LIMIT n;
+END //
+
+DELIMITER ;
+
+CALL procCreationTime(5);
+
+
+-- 30
+DROP PROCEDURE IF EXISTS countCustomersPerStore;
+DELIMITER //
+
+CREATE PROCEDURE countCustomersPerStore()
+BEGIN
+    SELECT s.store_id, COUNT(c.customer_id) AS total_customers
+    FROM store s
+    LEFT JOIN customer c ON s.store_id = c.store_id
+    GROUP BY s.store_id
+    ORDER BY total_customers DESC;
+END //
+
+DELIMITER ;
+
+Call countCustomersPerStore();
+
+-- 31
+DROP FUNCTION IF EXISTS countHighValueRentals;
+DELIMITER //
+CREATE FUNCTION countHighValueRentals(surname VARCHAR(45), x DECIMAL(10,2)) RETURNS INT
+DETERMINISTIC
+BEGIN
+    DECLARE total INT;
+    SELECT COUNT(*) INTO total
+    FROM payment p
+    JOIN staff s ON p.staff_id = s.staff_id
+    WHERE s.last_name = surname AND p.amount > x;
+    RETURN total;
+END //
+DELIMITER ;
+
+SELECT countHighValueRentals('Stephens',10);
+
+-- 32
+DROP FUNCTION IF EXISTS countFrequentCustomers;
+DELIMITER //
+
+CREATE FUNCTION countFrequentCustomers(n INT) RETURNS INT
+DETERMINISTIC
+BEGIN
+    DECLARE total INT;
+    SELECT COUNT(*) INTO total
+    FROM (
+        SELECT c.customer_id
+        FROM customer c
+        JOIN rental r ON c.customer_id = r.customer_id
+        GROUP BY c.customer_id
+        HAVING COUNT(r.rental_id) >= n
+    ) AS filtered_customers;
+    RETURN total;
+END //
+
+DELIMITER ;
+
+
+Select countFrequentCustomers(16);
+
+-- 33
+SHOW CREATE FUNCTION get_customer_balance;
+SELECT get_customer_balance(34,'2004-10-23 11:27:31');
+SELECT get_customer_balance(23,NOW());
+SELECT get_customer_balance(56,NOW());
+
+-- 34
+SHOW CREATE PROCEDURE rewards_report;
+CALL rewards_report(7,20.00, @count);
+SELECT @count;

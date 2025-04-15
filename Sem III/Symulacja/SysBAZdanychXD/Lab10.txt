@@ -1,0 +1,178 @@
+-- 12
+DESC actor;
+
+-- 13
+SHOW CREATE TABLE actor;
+
+-- 14
+DESC film;
+
+-- 15
+DESC city;
+
+-- 16
+SHOW CREATE TABLE city;
+
+-- 17
+DESC staff;
+
+-- 18
+SHOW CREATE TABLE staff;
+
+-- 19
+DESC rental;
+
+-- 20
+SHOW CREATE TABLE rental;
+
+-- 21
+SELECT COUNT(*) FROM film;
+SELECT COUNT(*) FROM film_text;
+SELECT COUNT(*) FROM city;
+SELECT COUNT(*) FROM country;
+SELECT COUNT(*) FROM customer;
+SELECT COUNT(*) FROM language;
+SELECT COUNT(*) FROM payment;
+SELECT COUNT(*) FROM rental;
+SELECT COUNT(*) FROM staff;
+SELECT COUNT(*) FROM store;
+
+
+-- 22
+SELECT * FROM city LIMIT 20;
+
+-- 23
+SELECT title, description FROM film WHERE title='wizard coldblooded';
+
+-- 24
+SELECT COUNT(*) FROM film WHERE rental_rate > 1 AND rental_rate < 3 AND rental_duration > 3;
+
+-- 25
+SELECT f.title, l.name, f.special_features, f.rental_rate 
+FROM sakila.film f 
+INNER JOIN sakila.language l ON f.language_id = l.language_id 
+WHERE l.name='English' AND f.special_features='commentaries';
+
+-- 26
+UPDATE film SET rental_rate=4 WHERE title='Ali forever';
+
+-- 27
+CREATE VIEW acegactors AS 
+SELECT f.title, a.first_name, a.last_name 
+FROM sakila.film_actor AS fa 
+INNER JOIN sakila.film AS f ON f.film_id = fa.film_id 
+INNER JOIN actor AS a ON fa.actor_id=a.actor_id 
+WHERE f.title='ace goldfinger';
+
+-- 28
+SELECT * FROM acegactors;
+
+-- 29
+SHOW CREATE PROCEDURE film_in_stock;
+
+-- 30
+SHOW CREATE PROCEDURE film_not_in_stock;
+
+-- 31
+CALL film_in_stock(1,1,@count);
+SELECT @count;
+
+-- 32
+CALL film_not_in_stock(2,2,@count);
+SELECT @count;
+
+-- 33
+DROP PROCEDURE IF EXISTS policz_filmy;
+DELIMITER //
+CREATE PROCEDURE policz_filmy(OUT param1 INT)
+BEGIN
+    SELECT COUNT(*) INTO param1 FROM film;
+END //
+DELIMITER ;
+
+-- 34
+CALL policz_filmy(@a);
+SELECT @a;
+
+-- 35
+DROP PROCEDURE IF EXISTS nazwa_filmu;
+DELIMITER //
+CREATE PROCEDURE nazwa_filmu(OUT nazwa VARCHAR(20), IN id INT)
+BEGIN
+    SELECT title INTO nazwa FROM film WHERE film_id=id;
+END //
+DELIMITER ;
+
+-- 36
+CALL nazwa_filmu(@nf, 5);
+SELECT @nf;
+
+-- 37
+SELECT COUNT(*) 
+FROM film 
+WHERE rental_rate BETWEEN 3 AND 6 AND replacement_cost > 25;
+
+-- 38
+SELECT f.title 
+FROM sakila.film f 
+INNER JOIN sakila.language l ON f.language_id = l.language_id 
+WHERE l.name='English' AND f.special_features='trailers' AND f.rental_rate < 3;
+
+-- 39
+UPDATE film 
+SET language_id = (SELECT language_id FROM language WHERE name='Italian') 
+WHERE title IN ('crazy home', 'coma head');
+
+-- 40
+CREATE VIEW italianfilm AS 
+SELECT * 
+FROM film 
+WHERE language_id = (SELECT language_id FROM language WHERE name='Italian');
+
+-- 41
+CREATE VIEW goodingfilm AS 
+SELECT f.title, a.first_name, a.last_name 
+FROM sakila.film_actor fa 
+INNER JOIN sakila.film f ON fa.film_id = f.film_id 
+INNER JOIN sakila.actor a ON fa.actor_id = a.actor_id 
+WHERE a.last_name='Gooding';
+
+-- 42
+CREATE VIEW familycomedyfilm AS 
+SELECT f.title, c.name AS category 
+FROM film f 
+INNER JOIN film_category fc ON f.film_id = fc.film_id 
+INNER JOIN category c ON fc.category_id = c.category_id 
+WHERE c.name IN ('Family', 'Comedy') AND f.rating IN ('G', 'PG', 'PG-13');
+
+-- 43
+UPDATE film 
+SET release_year=2007 
+WHERE title LIKE 'A%';
+
+-- 44
+SELECT COUNT(*) 
+FROM inventory 
+WHERE film_id = (SELECT film_id FROM film WHERE title='chosen_movie');
+
+-- 45
+DROP PROCEDURE IF EXISTS replacement_cost;
+DELIMITER //
+CREATE PROCEDURE replacement_cost(OUT min_cost DECIMAL(10,2))
+BEGIN
+    SELECT MIN(replacement_cost) INTO min_cost FROM film;
+END //
+DELIMITER ;
+
+-- 46
+DROP PROCEDURE IF EXISTS cena_wypozyczenia;
+DELIMITER //
+CREATE PROCEDURE cena_wypozyczenia(OUT cena DECIMAL(10,2), IN id INT)
+BEGIN
+    SELECT rental_rate INTO cena FROM film WHERE film_id=id;
+END //
+DELIMITER ;
+
+-- 47
+CALL rewards_report(1,0.11,@count);
+SELECT @count

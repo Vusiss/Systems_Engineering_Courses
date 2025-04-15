@@ -1,0 +1,52 @@
+// 9. 
+db.books.update(
+  { "title": "Great Expectations" },
+  { $set: { "isbn": "978-0141439563" } }
+);
+
+
+db.books.update(
+  { "title": "Lalka" },
+  { $set: { "isbn": "978-8308046920"} }
+);
+
+db.books.insertMany([
+  { "title": "Quo Vadis", "category": "novel", "firstedition": 1896, "price": 25000, "isbn": "978-0140449441" },
+  { "title": "The Hobbit", "category": "fantasy", "firstedition": 1937, "price": 30000, "isbn": "978-0007525492" },
+  { "title": "Crime and Punishment", "category": "novel", "firstedition": 1866, "price": 28000, "isbn": "978-0140449137" },
+  { "title": "Dune", "category": "sci-fi", "firstedition": 1965, "price": 32000, "isbn": "978-0441172719" },
+  { "title": "Pride and Prejudice", "category": "romance", "firstedition": 1813, "price": 22000, "isbn": "978-0141040349" }
+]);
+
+// 10. 
+db.publishers.insertMany([
+  { "id": 1, "name": "Penguin Books", "headquarters": "London", "foundedin": 1935 },
+  { "id": 2, "name": "PWN", "headquarters": "Warszawa", "foundedin": 1951 },
+  { "id": 3, "name": "HarperCollins", "headquarters": "New York", "foundedin": 1989 },
+  { "id": 4, "name": "Oxford University Press", "headquarters": "Oxford", "foundedin": 1586 },
+  { "id": 5, "name": "Simon & Schuster", "headquarters": "New York", "foundedin": 1924 }
+]);
+
+
+
+// 11. 
+db.books.find({ "firstedition": { $lt: 1900 } });
+
+db.authors.find({ "nationality": "Polish" });
+
+// 12. 
+db.books.updateMany(
+  { "firstedition": { $gt: 1850 } },
+  { $set: { "available": true } }
+);
+
+db.authors.createIndex({ "lastname": 1 });
+
+// 13. 
+db.books.aggregate([
+  { $group: { _id: null, averagePrice: { $avg: "$price" } } }
+]);
+
+db.authors.aggregate([
+  { $group: { _id: "$nationality", count: { $sum: 1 } } }
+]);

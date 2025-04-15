@@ -1,0 +1,149 @@
+USE WORLD;
+
+-- 11
+DESC city;
+
+-- 12
+SHOW CREATE TABLE city;
+
+-- 13
+DESC country;
+
+-- 14
+SHOW CREATE TABLE country;
+
+-- 15
+DESC countrylanguage;
+
+-- 16
+SHOW CREATE TABLE countrylanguage;
+
+-- 17
+SELECT COUNT(id) FROM city;
+SELECT COUNT(code) FROM country;
+SELECT COUNT(countrycode) FROM countrylanguage;
+
+-- 18
+SELECT id, name, population FROM city LIMIT 20;
+
+-- 19
+SELECT * FROM city 
+WHERE Name LIKE 'Wroclaw'
+LIMIT 20;
+
+-- 20
+SELECT * FROM city 
+JOIN country ON city.CountryCode = country.Code
+WHERE city.Population > 1000000 
+AND (country.Continent = 'Europe' OR country.Continent = 'North America') 
+ORDER BY city.Name;
+
+-- 21
+SELECT District, SUM(population) 
+FROM city 
+WHERE District IN ('California', 'Colorado', 'Michigan') 
+GROUP BY District;
+
+-- 22
+
+UPDATE country 
+SET HeadOfState = 'Emmanuel Macron' 
+WHERE Code = 'FRA';
+
+UPDATE country 
+SET headofstate = 'Joe Biden' 
+WHERE Code = 'USA';
+
+-- 23
+CREATE VIEW middlecountry AS 
+SELECT name, continent, surfacearea, population 
+FROM country 
+WHERE surfacearea BETWEEN 300000 AND 750000 
+AND gnp > 150000;
+
+-- 24
+CREATE VIEW underdevelopedcountry AS 
+SELECT name, continent, population, gnp, indepyear, lifeexpectancy 
+FROM country 
+WHERE (gnp/population) < 8000 
+AND indepyear < 2010 
+AND lifeexpectancy < 55;
+
+-- 25
+ALTER TABLE city ADD COLUMN description TEXT;
+ALTER TABLE country ADD COLUMN description TEXT;
+
+-- 26
+
+CREATE TABLE Address (
+    address_id INT AUTO_INCREMENT PRIMARY KEY,
+    address VARCHAR(255),
+    postal_code VARCHAR(20), 
+    fk_city_id INT NULL,
+	FOREIGN KEY (fk_city_id) REFERENCES city(ID)
+);
+
+-- 27
+INSERT INTO Address (address, fk_city_id, postal_code) VALUES 
+('123 Main St', 1, '12345'),
+('456 Elm St', 2, '67890'),
+('789 Maple St', 3, '11223'),
+('321 Oak St', 4, '44556'),
+('654 Pine St', 5, '77889');
+
+-- 28
+SELECT Address.*, city.name AS city_name 
+FROM Address 
+JOIN city ON Address.fk_city_id = city.id;
+
+29
+CREATE VIEW largecapitalrepublic AS 
+SELECT country.name AS countryname, country.population AS countrypopulation, 
+       city.name AS capitalname, city.population AS capitalpopulation, 
+       country.governmentform 
+FROM country 
+JOIN city ON country.capital = city.id 
+WHERE governmentform LIKE '%republic%' 
+ORDER BY city.population DESC 
+LIMIT 10;
+
+-- 30
+DELIMITER //
+CREATE PROCEDURE CountPortugueseSpeaking()
+BEGIN
+    SELECT SUM(population) 
+    FROM countrylanguage 
+    JOIN country ON countrylanguage.countrycode = country.code 
+    WHERE language = 'Portuguese';
+END//
+DELIMITER ;
+
+-- 31
+DELIMITER //
+CREATE PROCEDURE CountCountriesWithLargeCities()
+BEGIN
+    SELECT COUNT(DISTINCT countrycode) 
+    FROM city 
+    WHERE population > 1000000;
+END//
+DELIMITER ;
+
+-- 32
+SELECT continent, SUM(population) AS total_population 
+FROM country 
+GROUP BY continent;
+SELECT SUM(population) AS global_population 
+FROM country;
+
+-- 33
+SELECT * 
+FROM city 
+WHERE countrycode = (SELECT code FROM country WHERE name = 'Poland') 
+ORDER BY population DESC 
+LIMIT 10;
+
+-- 34
+-- SELECT * INTO OUTFILE 'C:/temp/city.txt' 
+-- FROM city;
+-- LOAD DATA INFILE 'C:/temp/city.txt' 
+-- INTO TABLE newcity;

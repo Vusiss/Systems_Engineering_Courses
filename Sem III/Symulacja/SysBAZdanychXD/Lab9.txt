@@ -1,0 +1,188 @@
+-- 11
+DESC city;
+
+-- 12
+SHOW CREATE TABLE city;
+
+-- 13
+DESC country;
+
+-- 14
+SHOW CREATE TABLE country;
+
+-- 15
+DESC countrylanguage;
+
+-- 16
+SHOW CREATE TABLE countrylanguage;
+
+-- 17
+SELECT COUNT(id) FROM city;
+SELECT COUNT(code) FROM country;
+SELECT COUNT(countrycode) FROM countrylanguage;
+
+-- 18
+SELECT id, name, population FROM city LIMIT 20;
+
+-- 19
+SELECT id, name, population FROM city LIMIT 15, 5;
+
+-- 20
+SELECT * FROM city ORDER BY population DESC LIMIT 20;
+
+-- 21
+SELECT countrycode, district, SUM(population) 
+FROM city 
+WHERE district = 'Texas' 
+GROUP BY district;
+
+-- 22
+SELECT name, population 
+FROM city 
+WHERE population = (SELECT MAX(population) FROM city);
+
+-- 23
+SELECT name, population 
+FROM city 
+WHERE population = (SELECT MIN(population) FROM city);
+
+-- 24
+SELECT * FROM city 
+WHERE name IN ('Warszawa', 'Wroclaw');
+
+-- 25
+SELECT name, countrycode, population 
+FROM city 
+WHERE population BETWEEN 630000 AND 650000 
+ORDER BY population DESC;
+
+-- 26
+SELECT name, population 
+FROM city 
+WHERE population > 1000000 AND name LIKE 'N%';
+
+-- 27
+SELECT name, population 
+FROM city 
+WHERE population > 1000000 
+AND name LIKE 'N%' 
+AND countrycode IN ('USA', 'RUS');
+
+-- 28
+CREATE VIEW polishcity AS 
+SELECT name, district, population 
+FROM city 
+WHERE population > 100000 
+AND countrycode = 'POL';
+
+-- 29
+DESC polishcity;
+SELECT * FROM polishcity;
+
+-- 30
+SELECT SUM(population) FROM country;
+
+-- 31
+SELECT SUM(population) 
+FROM country 
+INNER JOIN countrylanguage 
+ON country.code = countrylanguage.countrycode 
+WHERE language = 'Spanish' 
+AND isofficial = 'T';
+
+-- 32
+SELECT * 
+INTO OUTFILE 'c:/temp/country.txt' 
+FROM country;
+
+-- 33
+CREATE TABLE newcountry LIKE country;
+
+-- 34
+DESC newcountry;
+SELECT COUNT(*) FROM newcountry;
+
+-- 35
+LOAD DATA INFILE 'c:/temp/country.txt' 
+INTO TABLE newcountry;
+
+-- 36
+SELECT COUNT(*) FROM newcountry;
+
+-- 37
+Command to execute in the command line:
+mysqldump -u root -p --tab=c:/temp/dbworld --opt world
+
+-- 38
+SELECT * 
+INTO OUTFILE 'c:/temp/city.txt' 
+FROM city;
+
+LOAD DATA INFILE 'c:/temp/city.txt' 
+INTO TABLE newcity;
+
+-- 39
+CREATE VIEW usacity AS 
+SELECT name, district, population 
+FROM city 
+WHERE countrycode = 'USA' 
+AND district IN ('New York', 'Texas', 'California', 'Illinois', 'Colorado', 'Michigan', 'Arizona', 'Oregon') 
+AND population > 500000;
+
+-- 40
+CREATE VIEW bigcountry AS 
+SELECT name, continent, surfacearea, population 
+FROM country 
+WHERE surfacearea > 1000000 
+AND population >= 50000000;
+
+-- 41
+CREATE VIEW newrichcountry AS 
+SELECT name, continent, population, GNP, indepyear, lifeexpectancy 
+FROM country 
+WHERE GNP / population > 20000 
+AND indepyear > 1917 
+AND lifeexpectancy > 65;
+
+-- 42
+CREATE VIEW bigcapitalrepublic AS 
+SELECT country.name AS countryname, 
+       country.population AS countrypopulation, 
+       city.name AS capitalname, 
+       city.population AS capitalpopulation, 
+       country.governmentform 
+FROM country 
+INNER JOIN city 
+ON country.capital = city.id 
+WHERE city.population > 1000000 
+AND governmentform IN ('Republic', 'Federal Republic', 'Socialistic Republic');
+
+-- 43
+SELECT continent, SUM(population) 
+FROM country 
+WHERE continent IN ('Europe', 'Asia') 
+GROUP BY continent;
+
+-- 44
+UPDATE country 
+SET headofstate = 'Andrzej Duda' 
+WHERE name = 'Poland';
+
+-- 45
+SELECT name, population 
+FROM city 
+WHERE continent = 'Asia' 
+ORDER BY population DESC 
+LIMIT 3;
+
+-- 46
+SELECT SUM(population) 
+FROM country 
+INNER JOIN countrylanguage 
+ON country.code = countrylanguage.countrycode 
+WHERE language = 'English';
+
+-- 47
+SELECT COUNT(DISTINCT countrycode) 
+FROM city 
+WHERE population > 1000000;

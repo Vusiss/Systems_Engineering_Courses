@@ -1,0 +1,4 @@
+# Polecane obrazy
+To jest obraz **warty** obejrzenia:![obraz PWr WIT](./obrazy/obraz.jpg). Lecz nie tylko on.
+Również **ten obraz** jest interesujący ![](./obrazy/obraz2.jpg)
+Obrazy przemawiają **silniej niz tekst**.
